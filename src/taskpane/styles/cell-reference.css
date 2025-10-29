@@ -1,0 +1,34 @@
+.cell-reference {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-family: 'Monaco', 'SF Mono', 'Cascadia Code', 'Courier New', monospace;
+  font-size: clamp(0.75rem, 1.2vw, 0.8125rem);
+  font-weight: 600;
+  background: linear-gradient(135deg, rgba(217, 119, 87, 0.12) 0%, rgba(217, 119, 87, 0.08) 100%);
+  border: 1.5px solid rgba(217, 119, 87, 0.3);
+  padding: 4px 8px;
+  border-radius: 6px;
+  transition: all 200ms var(--transition);
+  user-select: none;
+  margin: 0 2px;
+}
+
+.cell-reference:hover {
+  background: linear-gradient(135deg, rgba(217, 119, 87, 0.2) 0%, rgba(217, 119, 87, 0.12) 100%);
+  border-color: var(--accent);
+  transform: translateY(-1px);
+  box-shadow: 0 2px 8px rgba(217, 119, 87, 0.2);
+}
+
+.cell-reference:active {
+  transform: translateY(0);
+  box-shadow: 0 1px 4px rgba(217, 119, 87, 0.15);
+}
+
+/* High contrast mode */
+@media (prefers-contrast: high) {
+  .cell-reference {
+    border-width: 2px;
+  }
+}

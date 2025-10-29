@@ -1,0 +1,95 @@
+.tools-menu {
+  position: relative;
+}
+
+.tools-dropdown {
+  position: fixed;
+  top: 70px;
+  left: 16px;
+  right: 16px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+  z-index: 1000;
+  animation: dropdownSlideIn 200ms var(--transition);
+  max-height: calc(100vh - 100px);
+  overflow-y: auto;
+}
+
+@keyframes dropdownSlideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.tools-item {
+  width: 100%;
+  padding: 12px 16px;
+  background: transparent;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  transition: all 200ms var(--transition);
+}
+
+.tools-item:hover {
+  background: var(--cream);
+}
+
+.tools-item:active {
+  background: rgba(217, 119, 87, 0.1);
+}
+
+.tools-item.active {
+  background: rgba(217, 119, 87, 0.05);
+}
+
+.tools-item.active:hover {
+  background: rgba(217, 119, 87, 0.1);
+}
+
+.tools-item-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.tools-item-text {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  flex: 1;
+}
+
+.tools-item-label {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--text-primary);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
+
+.tools-item-description {
+  font-size: 12px;
+  color: var(--text-secondary);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
+
+.tools-item-checkmark {
+  width: 20px;
+  height: 20px;
+  color: var(--accent);
+  flex-shrink: 0;
+}
+
+.tools-divider {
+  height: 1px;
+  background: var(--border);
+  margin: 4px 0;
+}

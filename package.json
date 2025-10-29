@@ -1,0 +1,37 @@
+{
+  "name": "excel-claude-sidebar",
+  "version": "1.0.0",
+  "description": "AI-powered Excel sidebar using Claude",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "start": "office-addin-debugging start manifest.xml desktop",
+    "stop": "office-addin-debugging stop manifest.xml",
+    "validate": "office-addin-manifest validate manifest.xml"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "latest",
+    "@fluentui/react-components": "latest",
+    "@fluentui/react-icons": "^2.0.313",
+    "@types/prismjs": "^1.26.5",
+    "prismjs": "^1.30.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-markdown": "^10.1.0",
+    "remark-gfm": "^4.0.1",
+    "zustand": "latest"
+  },
+  "devDependencies": {
+    "@types/office-js": "latest",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "@vitejs/plugin-react": "^4.3.4",
+    "office-addin-debugging": "latest",
+    "office-addin-dev-certs": "latest",
+    "office-addin-manifest": "latest",
+    "typescript": "^5.3.0",
+    "vite": "^5.4.11"
+  }
+}

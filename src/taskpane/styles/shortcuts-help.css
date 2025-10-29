@@ -1,0 +1,63 @@
+.shortcuts-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 12px 0;
+}
+
+.shortcut-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 12px;
+  background: var(--cream);
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  transition: all 200ms var(--transition);
+}
+
+.shortcut-item:hover {
+  background: white;
+  border-color: var(--accent);
+  transform: translateX(2px);
+}
+
+.shortcut-keys {
+  font-family: 'Monaco', 'SF Mono', 'Cascadia Code', 'Courier New', monospace;
+  font-size: clamp(0.75rem, 1.2vw, 0.8125rem);
+  font-weight: 600;
+  color: var(--text-primary);
+  background: white;
+  padding: 6px 10px;
+  border-radius: 6px;
+  border: 1.5px solid var(--border);
+  white-space: nowrap;
+  box-shadow: 0 2px 4px rgba(19, 19, 20, 0.04);
+}
+
+.shortcut-action {
+  flex: 1;
+  font-size: clamp(0.8125rem, 1.3vw, 0.875rem);
+  color: var(--text-secondary);
+  font-weight: 400;
+}
+
+/* Fluent UI Dialog customization */
+:where(.fui-DialogSurface) {
+  max-width: 480px;
+  border-radius: 16px;
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow-xl);
+}
+
+:where(.fui-DialogTitle) {
+  font-size: clamp(1.125rem, 2vw, 1.25rem);
+  font-weight: 600;
+  color: var(--text-primary);
+  letter-spacing: -0.02em;
+}
+
+:where(.fui-DialogBody) {
+  padding: 0 24px 24px;
+}

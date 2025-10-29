@@ -1,0 +1,163 @@
+.excel-context {
+  background: linear-gradient(135deg, rgba(217, 119, 87, 0.04) 0%, rgba(217, 119, 87, 0.08) 100%);
+  border: 1.5px solid var(--border);
+  border-radius: 8px;
+  padding: 8px 12px;
+  margin-bottom: 8px;
+  backdrop-filter: blur(8px);
+}
+
+.excel-context.loading {
+  background: var(--cream);
+  min-height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.excel-context-skeleton {
+  width: 100%;
+  height: 60px;
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(217, 119, 87, 0.1) 50%,
+    transparent 100%
+  );
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+  border-radius: 8px;
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+.excel-context-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.excel-context-icon {
+  flex-shrink: 0;
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  border-radius: 6px;
+  border: 1.5px solid var(--border);
+  box-shadow: var(--shadow-sm);
+  color: var(--accent);
+}
+
+.excel-context-icon svg {
+  width: 16px;
+  height: 16px;
+}
+
+.excel-context-details {
+  flex: 1;
+  min-width: 0;
+}
+
+.excel-context-title {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 4px;
+  flex-wrap: wrap;
+}
+
+.excel-context-range {
+  font-family: 'Monaco', 'SF Mono', 'Cascadia Code', 'Courier New', monospace;
+  font-size: clamp(0.75rem, 1.3vw, 0.8125rem);
+  font-weight: 600;
+  color: var(--text-primary);
+  letter-spacing: -0.01em;
+}
+
+.excel-context-subtitle {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: clamp(0.6875rem, 1.1vw, 0.75rem);
+  color: var(--text-secondary);
+  font-weight: 400;
+}
+
+.sheet-icon {
+  width: 12px;
+  height: 12px;
+  opacity: 0.7;
+}
+
+.excel-context-preview {
+  margin-top: 8px;
+  padding-top: 8px;
+  border-top: 1px solid var(--border);
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.excel-context-preview-label {
+  font-size: clamp(0.625rem, 1vw, 0.6875rem);
+  font-weight: 600;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.excel-context-preview-content {
+  font-family: 'Monaco', 'SF Mono', 'Cascadia Code', 'Courier New', monospace;
+  font-size: clamp(0.6875rem, 1.1vw, 0.75rem);
+  color: var(--text-primary);
+  padding: 6px 10px;
+  background: white;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.excel-context-badge {
+  margin-top: 6px;
+  display: inline-flex;
+}
+
+/* Responsive adjustments */
+@media (max-width: 400px) {
+  .excel-context {
+    padding: 12px;
+  }
+
+  .excel-context-icon {
+    width: 36px;
+    height: 36px;
+  }
+
+  .excel-context-icon svg {
+    width: 18px;
+    height: 18px;
+  }
+}
+
+/* High contrast mode */
+@media (prefers-contrast: high) {
+  .excel-context {
+    border-width: 2px;
+  }
+
+  .excel-context-preview-content {
+    border-width: 2px;
+  }
+}

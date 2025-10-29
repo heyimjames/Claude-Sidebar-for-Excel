@@ -1,0 +1,149 @@
+:root {
+  --primary-dark: #131314;
+  --accent: #d97757;
+  --accent-hover: #c46648;
+  --accent-light: #e8a893;
+  --neutral: #87867f;
+  --light: #faf9f0;
+  --cream: #faf9f0;
+  --border: rgba(19, 19, 20, 0.08);
+  --border-hover: rgba(19, 19, 20, 0.12);
+  --shadow-sm: 0 1px 2px 0 rgba(19, 19, 20, 0.03);
+  --shadow: 0 1px 3px 0 rgba(19, 19, 20, 0.04), 0 1px 2px -1px rgba(19, 19, 20, 0.03);
+  --shadow-md: 0 4px 6px -1px rgba(19, 19, 20, 0.06), 0 2px 4px -2px rgba(19, 19, 20, 0.04);
+  --shadow-lg: 0 10px 15px -3px rgba(19, 19, 20, 0.08), 0 4px 6px -4px rgba(19, 19, 20, 0.05);
+  --shadow-xl: 0 20px 25px -5px rgba(19, 19, 20, 0.1), 0 8px 10px -6px rgba(19, 19, 20, 0.06);
+  --text-primary: #131314;
+  --text-secondary: #87867f;
+  --transition: cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-bounce: cubic-bezier(0.34, 1.56, 0.64, 1);
+  --transition-smooth: cubic-bezier(0.4, 0, 0.2, 1);
+
+  /* Enhanced gradients */
+  --gradient-shimmer: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(217, 119, 87, 0.08) 50%,
+    transparent 100%
+  );
+  --gradient-accent: linear-gradient(135deg, var(--accent) 0%, var(--accent-hover) 100%);
+  --gradient-dark: linear-gradient(135deg, #1a1a1b 0%, var(--primary-dark) 100%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  overflow: hidden;
+  background: var(--cream);
+  color: var(--text-primary);
+  font-feature-settings: 'kern' 1, 'liga' 1, 'calt' 1;
+}
+
+code {
+  font-family: 'Fira Code', 'SF Mono', Monaco, 'Cascadia Code', 'Roboto Mono', Consolas, 'Courier New', monospace;
+  font-feature-settings: 'calt' 1, 'liga' 1;
+}
+
+#root {
+  height: 100vh;
+  width: 100%;
+}
+
+/* Enhanced scrollbar styling with smooth interaction */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+  margin: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(135, 134, 127, 0.2);
+  border-radius: 4px;
+  transition: background 300ms var(--transition);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(135, 134, 127, 0.4);
+}
+
+::-webkit-scrollbar-thumb:active {
+  background: rgba(135, 134, 127, 0.6);
+}
+
+/* Focus visible styles for accessibility */
+*:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+button:focus-visible {
+  outline-offset: 4px;
+}
+
+/* Selection styling */
+::selection {
+  background: rgba(217, 119, 87, 0.2);
+  color: var(--text-primary);
+}
+
+::-moz-selection {
+  background: rgba(217, 119, 87, 0.2);
+  color: var(--text-primary);
+}
+
+/* Reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* Smooth focus transitions */
+a, button, input, textarea, select {
+  transition: outline 200ms var(--transition);
+}
+
+/* Screen reader only class */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+/* High contrast mode support */
+@media (prefers-contrast: high) {
+  .message-text {
+    border-width: 2px;
+  }
+
+  button,
+  input,
+  textarea {
+    border-width: 2px;
+  }
+}

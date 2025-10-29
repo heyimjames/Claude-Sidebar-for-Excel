@@ -1,0 +1,43 @@
+.message-actions {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  display: flex;
+  gap: 4px;
+  opacity: 0;
+  transition: opacity 300ms var(--transition);
+  z-index: 10;
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(8px);
+  padding: 4px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow-sm);
+}
+
+.message:hover .message-actions {
+  opacity: 1;
+}
+
+.message-actions button {
+  min-width: 32px;
+  height: 32px;
+  padding: 4px 8px;
+  border-radius: 6px;
+  transition: all 200ms var(--transition);
+}
+
+.message-actions button:hover {
+  background: var(--cream);
+  transform: translateY(-1px);
+}
+
+.message-actions button:active {
+  transform: translateY(0);
+}
+
+/* User messages have actions on the left */
+.message-user .message-actions {
+  right: auto;
+  left: 8px;
+}
