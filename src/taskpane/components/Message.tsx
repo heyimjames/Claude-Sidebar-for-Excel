@@ -42,11 +42,6 @@ export default function Message({ message, onRegenerate }: MessageProps) {
           onRegenerate={onRegenerate}
         />
 
-        {/* Display attached files for user messages */}
-        {isUser && message.attachments && message.attachments.length > 0 && (
-          <AttachmentThumbnails attachments={message.attachments} />
-        )}
-
         <div className="message-text">
           <span className="sr-only">{isUser ? 'You:' : 'Claude:'}</span>
           {message.isAnimating && message.isStreaming ? (
@@ -91,6 +86,11 @@ export default function Message({ message, onRegenerate }: MessageProps) {
             </ReactMarkdown>
           )}
         </div>
+
+        {/* Display attached files below user messages */}
+        {isUser && message.attachments && message.attachments.length > 0 && (
+          <AttachmentThumbnails attachments={message.attachments} />
+        )}
       </div>
     </div>
   );
