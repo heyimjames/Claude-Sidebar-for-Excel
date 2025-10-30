@@ -1,0 +1,186 @@
+.attachment-thumbnails {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  margin-bottom: 10px;
+  padding: 2px;
+  min-height: 56px;
+}
+
+.attachment-thumbnail {
+  position: relative;
+  width: 48px;
+  height: 48px;
+  border-radius: 6px;
+  overflow: visible;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+  transform-origin: center center;
+}
+
+/* Stacking effect when multiple files */
+.attachment-thumbnails:has(.attachment-thumbnail:nth-child(2)) .attachment-thumbnail {
+  position: absolute;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Calculate rotation and position for stacked thumbnails */
+.attachment-thumbnail {
+  /* Default rotation based on index */
+  transform: rotate(calc((var(--stack-index) - (var(--stack-total) - 1) / 2) * 6deg))
+    translateX(calc(var(--stack-index) * 10px));
+}
+
+/* Hover effects */
+.attachment-thumbnail:hover {
+  transform: rotate(0deg) translateX(calc(var(--stack-index) * 10px)) translateY(-6px) scale(1.15);
+  z-index: 100;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25) !important;
+}
+
+.attachment-thumbnail:hover .thumbnail-filename {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Thumbnail content container */
+.thumbnail-content {
+  width: 100%;
+  height: 100%;
+  border-radius: 6px;
+  overflow: hidden;
+  background: #ffffff;
+  border: 1.5px solid #e1e1e1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: border-color 0.2s;
+}
+
+.attachment-thumbnail:hover .thumbnail-content {
+  border-color: #0078d4;
+}
+
+/* Image thumbnails */
+.thumbnail-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Document thumbnails */
+.thumbnail-document {
+  flex-direction: column;
+  gap: 3px;
+  background: linear-gradient(135deg, #f5f5f5 0%, #ffffff 100%);
+}
+
+.thumbnail-icon {
+  width: 20px;
+  height: 20px;
+  color: #d83b01;
+}
+
+.thumbnail-label {
+  font-size: 8px;
+  font-weight: 600;
+  color: #605e5c;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+}
+
+/* More files indicator */
+.thumbnail-more-indicator {
+  background: linear-gradient(135deg, #0078d4 0%, #005a9e 100%);
+  border-color: #0078d4;
+}
+
+.more-count {
+  font-size: 14px;
+  font-weight: 700;
+  color: white;
+  user-select: none;
+}
+
+/* Filename tooltip */
+.thumbnail-filename {
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  transform: translateX(-50%) translateY(3px);
+  background: rgba(0, 0, 0, 0.85);
+  color: white;
+  padding: 3px 6px;
+  border-radius: 3px;
+  font-size: 10px;
+  white-space: nowrap;
+  pointer-events: none;
+  opacity: 0;
+  transition: all 0.2s ease;
+  z-index: 101;
+  max-width: 120px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Single file - no rotation */
+.attachment-thumbnails:has(.attachment-thumbnail:only-child) .attachment-thumbnail {
+  position: relative;
+  transform: none;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.attachment-thumbnails:has(.attachment-thumbnail:only-child) .attachment-thumbnail:hover {
+  transform: translateY(-3px) scale(1.1);
+}
+
+/* Animation on mount */
+.attachment-thumbnail {
+  animation: thumbnailSlideIn 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation-fill-mode: both;
+  animation-delay: calc(var(--stack-index) * 0.05s);
+}
+
+@keyframes thumbnailSlideIn {
+  from {
+    opacity: 0;
+    transform: rotate(calc((var(--stack-index) - (var(--stack-total) - 1) / 2) * 6deg))
+      translateX(calc(var(--stack-index) * 10px))
+      translateY(15px);
+  }
+  to {
+    opacity: 1;
+    transform: rotate(calc((var(--stack-index) - (var(--stack-total) - 1) / 2) * 6deg))
+      translateX(calc(var(--stack-index) * 10px))
+      translateY(0);
+  }
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+  .thumbnail-content {
+    background: #2b2b2b;
+    border-color: #3b3b3b;
+  }
+
+  .attachment-thumbnail:hover .thumbnail-content {
+    border-color: #4cc2ff;
+  }
+
+  .thumbnail-document {
+    background: linear-gradient(135deg, #2b2b2b 0%, #363636 100%);
+  }
+
+  .thumbnail-label {
+    color: #c8c6c4;
+  }
+
+  .thumbnail-icon {
+    color: #ff8c69;
+  }
+
+  .thumbnail-more-indicator {
+    background: linear-gradient(135deg, #4cc2ff 0%, #0078d4 100%);
+    border-color: #4cc2ff;
+  }
+}

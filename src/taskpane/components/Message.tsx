@@ -1,11 +1,11 @@
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
-import { Document24Regular } from '@fluentui/react-icons';
 import type { ChatMessage } from '../lib/types';
 import CodeBlock from './CodeBlock';
 import MessageActions from './MessageActions';
 import StreamingText from './StreamingText';
 import CellReference, { detectCellReferences } from './CellReference';
+import AttachmentThumbnails from './AttachmentThumbnails';
 import '../styles/message.css';
 
 interface MessageProps {
@@ -44,24 +44,7 @@ export default function Message({ message, onRegenerate }: MessageProps) {
 
         {/* Display attached files for user messages */}
         {isUser && message.attachments && message.attachments.length > 0 && (
-          <div className="message-images">
-            {message.attachments.map((file) => (
-              file.fileType === 'image' && file.previewUrl ? (
-                <img
-                  key={file.id}
-                  src={file.previewUrl}
-                  alt={file.name || 'Uploaded image'}
-                  className="message-image"
-                  title={file.name}
-                />
-              ) : (
-                <div key={file.id} className="message-document" title={file.name}>
-                  <Document24Regular />
-                  {file.name && <span className="document-name">{file.name}</span>}
-                </div>
-              )
-            ))}
-          </div>
+          <AttachmentThumbnails attachments={message.attachments} />
         )}
 
         <div className="message-text">
