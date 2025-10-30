@@ -365,7 +365,7 @@ export const excelTools: ExcelTool[] = [
   },
   {
     name: 'find_replace',
-    description: 'Find and replace text or values in a range. Useful for formatting changes like converting commas to periods in numbers (e.g., "23,6" to "23.6") or vice versa, standardizing text formats, or bulk text corrections.',
+    description: 'Find and replace text or characters in cell VALUES (not just display format). CRITICAL: Use this to convert decimal separators by replacing comma "," with period "." in numbers like "23,6" → "23.6", or vice versa. This changes the actual cell content, not the number format. Also useful for standardizing text formats or bulk text corrections.',
     input_schema: {
       type: 'object',
       properties: {

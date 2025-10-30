@@ -186,7 +186,7 @@ export default function ChatInterface({ apiKey: initialApiKey }: ChatInterfacePr
           <p className="header-subtitle">Excel AI Assistant</p>
         </div>
         <div className="header-actions">
-          <ToolsMenu />
+          <ToolsMenu messages={messages} />
           <button
             className="icon-button"
             onClick={() => setShowSettings(true)}

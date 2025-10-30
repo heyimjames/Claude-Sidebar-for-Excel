@@ -1,6 +1,6 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Badge } from '@fluentui/react-components';
-import { Table24Regular, Document24Regular } from '@fluentui/react-icons';
+import { Table24Regular, Document24Regular, ChevronDown16Regular, ChevronUp16Regular } from '@fluentui/react-icons';
 import type { ExcelContext as ExcelContextType } from '../hooks/useExcelContext';
 import '../styles/excel-context.css';
 
@@ -10,6 +10,8 @@ interface ExcelContextProps {
 }
 
 export default function ExcelContext({ context, isLoading }: ExcelContextProps) {
+  const [isExpanded, setIsExpanded] = useState(false);
+
   if (isLoading) {
     return (
       <div className="excel-context loading" role="status" aria-label="Loading Excel context">
@@ -65,8 +67,27 @@ export default function ExcelContext({ context, isLoading }: ExcelContextProps) 
     return `${context.rowCount} × ${context.columnCount} cells`;
   };
 
+  // Collapsed view - minimal chip
+  if (!isExpanded) {
+    return (
+      <button
+        className="excel-context-collapsed"
+        onClick={() => setIsExpanded(true)}
+        aria-label="Expand Excel context"
+        type="button"
+      >
+        <Table24Regular className="excel-context-collapsed-icon" />
+        <span className="excel-context-collapsed-text">
+          {context.address} · {getCellInfo()}
+        </span>
+        <ChevronDown16Regular className="excel-context-chevron" />
+      </button>
+    );
+  }
+
+  // Expanded view - compact version
   return (
-    <div className="excel-context" role="complementary" aria-label="Current Excel selection">
+    <div className="excel-context expanded" role="complementary" aria-label="Current Excel selection">
       <div className="excel-context-header">
         <div className="excel-context-icon">
           <Table24Regular />
@@ -83,6 +104,14 @@ export default function ExcelContext({ context, isLoading }: ExcelContextProps) 
             <span>{context.sheetName}</span>
           </div>
         </div>
+        <button
+          className="excel-context-collapse-btn"
+          onClick={() => setIsExpanded(false)}
+          aria-label="Collapse Excel context"
+          type="button"
+        >
+          <ChevronUp16Regular />
+        </button>
       </div>
 
       {context.hasData && (

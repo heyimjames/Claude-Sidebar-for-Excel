@@ -103,17 +103,20 @@ export function useClaudeChat(apiKey: string) {
         let messageCreated = false;
 
         // Start streaming
-        const stream = anthropic.messages.stream({
-          model: 'claude-haiku-4-5-20251001',
-          max_tokens: 4096,
-          system: 'You are a helpful Excel assistant. Provide professional, concise, and friendly responses. Keep answers brief and to the point while maintaining a warm, approachable tone. Use emojis sparingly and only when they add clarity or emphasize important points. Focus on being practical and actionable in your advice.\n\nIMPORTANT: Avoid writing in huge text blocks. Break your responses into short, digestible paragraphs with clear paragraph breaks. Use formatting like bullet points, numbered lists, and headers to make information scannable. Keep individual paragraphs to 2-3 sentences maximum.\n\nEXCEL CONTEXT HANDLING:\n- When Excel context is provided (cells are selected), ALWAYS prioritize making changes to those selected cells unless the user explicitly specifies a different range (e.g., "change column A cells to...").\n- If the user says "edit these cells" or "change these", they are referring to the currently selected cells shown in the context.\n- If the user has cleared the Excel context (no cells selected), do NOT assume which cells to modify - always ask for clarification or use tools like get_selection to determine the target range.\n- Use the find_replace tool for formatting changes like converting commas to periods in numbers (e.g., "23,6" to "23.6") or vice versa.',
-          tools: tools as any,
-          messages: conversationMessages as any,
-          thinking: {
-            type: 'enabled',
-            budget_tokens: 2000,
+        const stream = anthropic.messages.stream(
+          {
+            model: 'claude-haiku-4-5-20251001',
+            max_tokens: 4096,
+            system: 'You are a helpful Excel assistant. Provide professional, concise, and friendly responses. Keep answers brief and to the point while maintaining a warm, approachable tone. Use emojis sparingly and only when they add clarity or emphasize important points. Focus on being practical and actionable in your advice.\n\nIMPORTANT: Avoid writing in huge text blocks. Break your responses into short, digestible paragraphs with clear paragraph breaks. Use formatting like bullet points, numbered lists, and headers to make information scannable. Keep individual paragraphs to 2-3 sentences maximum.\n\nEXCEL CONTEXT HANDLING:\n- When Excel context is provided (cells are selected), ALWAYS prioritize making changes to those selected cells unless the user explicitly specifies a different range (e.g., "change column A cells to...").\n- If the user says "edit these cells" or "change these", they are referring to the currently selected cells shown in the context.\n- When the user asks about selected cells (e.g., "look through these cells", "add information to these", "analyze this data"), FIRST use get_range_values to inspect the actual data before asking clarifying questions. The user has already told you which cells by selecting them - don\'t ask what cells to work with.\n- If the user has cleared the Excel context (no cells selected), do NOT assume which cells to modify - always ask for clarification or use tools like get_selection to determine the target range.\n\nCRITICAL - DECIMAL SEPARATOR CONVERSION:\nWhen users ask to "change commas to periods" or "convert commas to periods in numbers" (like "23,6" to "23.6"), they want to REPLACE the actual comma CHARACTER in the cell text. You MUST use the find_replace tool with find: "," and replace: ".". DO NOT use format_range or numberFormat - that only changes display, not actual values.',
+            tools: tools as any,
+            messages: conversationMessages as any,
+            thinking: {
+              type: 'enabled',
+              budget_tokens: 2000,
+            },
           },
-        });
+          { signal: controller.signal }
+        );
 
         // Handle stream events
         for await (const event of stream) {
@@ -197,17 +200,20 @@ export function useClaudeChat(apiKey: string) {
           });
 
           // Continue streaming with tool results
-          const continueStream = anthropic.messages.stream({
-            model: 'claude-haiku-4-5-20251001',
-            max_tokens: 4096,
-            system: 'You are a helpful Excel assistant. Provide professional, concise, and friendly responses. Keep answers brief and to the point while maintaining a warm, approachable tone. Use emojis sparingly and only when they add clarity or emphasize important points. Focus on being practical and actionable in your advice.\n\nIMPORTANT: Avoid writing in huge text blocks. Break your responses into short, digestible paragraphs with clear paragraph breaks. Use formatting like bullet points, numbered lists, and headers to make information scannable. Keep individual paragraphs to 2-3 sentences maximum.\n\nEXCEL CONTEXT HANDLING:\n- When Excel context is provided (cells are selected), ALWAYS prioritize making changes to those selected cells unless the user explicitly specifies a different range (e.g., "change column A cells to...").\n- If the user says "edit these cells" or "change these", they are referring to the currently selected cells shown in the context.\n- If the user has cleared the Excel context (no cells selected), do NOT assume which cells to modify - always ask for clarification or use tools like get_selection to determine the target range.\n- Use the find_replace tool for formatting changes like converting commas to periods in numbers (e.g., "23,6" to "23.6") or vice versa.',
-            tools: tools as any,
-            messages: conversationMessages as any,
-            thinking: {
-              type: 'enabled',
-              budget_tokens: 2000,
+          const continueStream = anthropic.messages.stream(
+            {
+              model: 'claude-haiku-4-5-20251001',
+              max_tokens: 4096,
+              system: 'You are a helpful Excel assistant. Provide professional, concise, and friendly responses. Keep answers brief and to the point while maintaining a warm, approachable tone. Use emojis sparingly and only when they add clarity or emphasize important points. Focus on being practical and actionable in your advice.\n\nIMPORTANT: Avoid writing in huge text blocks. Break your responses into short, digestible paragraphs with clear paragraph breaks. Use formatting like bullet points, numbered lists, and headers to make information scannable. Keep individual paragraphs to 2-3 sentences maximum.\n\nEXCEL CONTEXT HANDLING:\n- When Excel context is provided (cells are selected), ALWAYS prioritize making changes to those selected cells unless the user explicitly specifies a different range (e.g., "change column A cells to...").\n- If the user says "edit these cells" or "change these", they are referring to the currently selected cells shown in the context.\n- When the user asks about selected cells (e.g., "look through these cells", "add information to these", "analyze this data"), FIRST use get_range_values to inspect the actual data before asking clarifying questions. The user has already told you which cells by selecting them - don\'t ask what cells to work with.\n- If the user has cleared the Excel context (no cells selected), do NOT assume which cells to modify - always ask for clarification or use tools like get_selection to determine the target range.\n\nCRITICAL - DECIMAL SEPARATOR CONVERSION:\nWhen users ask to "change commas to periods" or "convert commas to periods in numbers" (like "23,6" to "23.6"), they want to REPLACE the actual comma CHARACTER in the cell text. You MUST use the find_replace tool with find: "," and replace: ".". DO NOT use format_range or numberFormat - that only changes display, not actual values.',
+              tools: tools as any,
+              messages: conversationMessages as any,
+              thinking: {
+                type: 'enabled',
+                budget_tokens: 2000,
+              },
             },
-          });
+            { signal: controller.signal }
+          );
 
           for await (const event of continueStream) {
             if (event.type === 'content_block_delta' && event.delta.type === 'text_delta') {
@@ -305,6 +311,13 @@ export function useClaudeChat(apiKey: string) {
 
         // Check if it was aborted
         if (error.name === 'AbortError' || controller.signal.aborted) {
+          // Clean up any streaming message
+          setMessages((prev) =>
+            prev.map((m) =>
+              m.isStreaming ? { ...m, isStreaming: false, isAnimating: false } : m
+            )
+          );
+
           // Add aborted message
           const abortedMessage: ChatMessage = {
             id: crypto.randomUUID(),

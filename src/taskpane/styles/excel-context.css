@@ -1,8 +1,55 @@
+/* Collapsed state - minimal chip */
+.excel-context-collapsed {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 10px;
+  background: white;
+  border: 1.5px solid var(--border);
+  border-radius: 20px;
+  margin-bottom: 8px;
+  cursor: pointer;
+  transition: all 200ms var(--transition-smooth);
+  width: fit-content;
+  max-width: 100%;
+  font-family: inherit;
+}
+
+.excel-context-collapsed:hover {
+  border-color: var(--accent);
+  background: rgba(217, 119, 87, 0.05);
+  transform: translateY(-1px);
+}
+
+.excel-context-collapsed-icon {
+  flex-shrink: 0;
+  width: 16px;
+  height: 16px;
+  color: var(--accent);
+}
+
+.excel-context-collapsed-text {
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--text-primary);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.excel-context-chevron {
+  flex-shrink: 0;
+  width: 14px;
+  height: 14px;
+  color: var(--text-secondary);
+}
+
+/* Expanded state - more compact */
 .excel-context {
   background: linear-gradient(135deg, rgba(217, 119, 87, 0.04) 0%, rgba(217, 119, 87, 0.08) 100%);
   border: 1.5px solid var(--border);
   border-radius: 8px;
-  padding: 8px 12px;
+  padding: 6px 10px;
   margin-bottom: 8px;
   backdrop-filter: blur(8px);
 }
@@ -42,12 +89,42 @@
   display: flex;
   align-items: flex-start;
   gap: 8px;
+  position: relative;
+}
+
+.excel-context-collapse-btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  border: 1.5px solid var(--border);
+  border-radius: 6px;
+  cursor: pointer;
+  color: var(--text-secondary);
+  transition: all 200ms var(--transition-smooth);
+  padding: 0;
+}
+
+.excel-context-collapse-btn:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  transform: scale(1.05);
+}
+
+.excel-context-collapse-btn svg {
+  width: 14px;
+  height: 14px;
 }
 
 .excel-context-icon {
   flex-shrink: 0;
-  width: 28px;
-  height: 28px;
+  width: 24px;
+  height: 24px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -59,8 +136,8 @@
 }
 
 .excel-context-icon svg {
-  width: 16px;
-  height: 16px;
+  width: 14px;
+  height: 14px;
 }
 
 .excel-context-details {
@@ -100,12 +177,12 @@
 }
 
 .excel-context-preview {
-  margin-top: 8px;
-  padding-top: 8px;
+  margin-top: 6px;
+  padding-top: 6px;
   border-top: 1px solid var(--border);
   display: flex;
   flex-direction: column;
-  gap: 4px;
+  gap: 3px;
 }
 
 .excel-context-preview-label {

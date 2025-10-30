@@ -414,7 +414,12 @@ export default function MessageInput({ value, onChange, onSend, onStop, disabled
                   />
                 )}
               </svg>
-              {contextPercentage > 0 && <Dismiss20Regular className="context-dismiss-icon" />}
+              {contextPercentage > 0 ? (
+                <>
+                  <span className="context-percentage">{contextPercentage}%</span>
+                  <Dismiss20Regular className="context-dismiss-icon" />
+                </>
+              ) : null}
             </button>
           </div>
 

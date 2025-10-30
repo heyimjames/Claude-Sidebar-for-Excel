@@ -131,12 +131,32 @@ export function useExcelTools() {
           case 'apply_formula': {
             const sheet = context.workbook.worksheets.getActiveWorksheet();
             const range = sheet.getRange(input.range);
-            range.formulas = [[input.formula]];
+
+            // Load range dimensions
+            range.load('rowCount, columnCount');
+            await context.sync();
+
+            // Create 2D array filled with the formula for each cell
+            // Excel will auto-adjust relative references (e.g., A1 -> A2, A3, etc.)
+            const formulas: string[][] = [];
+            for (let row = 0; row < range.rowCount; row++) {
+              const rowFormulas: string[] = [];
+              for (let col = 0; col < range.columnCount; col++) {
+                rowFormulas.push(input.formula);
+              }
+              formulas.push(rowFormulas);
+            }
+
+            range.formulas = formulas;
             await context.sync();
 
             return {
               success: true,
-              data: { range: input.range, formula: input.formula },
+              data: {
+                range: input.range,
+                formula: input.formula,
+                cellsAffected: range.rowCount * range.columnCount
+              },
             };
           }
 
@@ -380,28 +400,62 @@ export function useExcelTools() {
             const sheet = context.workbook.worksheets.getActiveWorksheet();
             const searchRange = input.range ? sheet.getRange(input.range) : sheet.getUsedRange();
 
-            const foundRanges = searchRange.findAll(input.find, {
-              completeMatch: input.matchEntireCell || false,
-              matchCase: input.matchCase || false,
-            });
-
-            foundRanges.load('areas');
+            // Load the range values
+            searchRange.load('values, rowCount, columnCount, address');
             await context.sync();
 
+            // Perform find and replace on the values
             let replacedCount = 0;
-            foundRanges.areas.items.forEach((area) => {
-              area.replaceAll(input.find, input.replace, {
-                completeMatch: input.matchEntireCell || false,
-                matchCase: input.matchCase || false,
-              });
-              replacedCount++;
-            });
+            const newValues = searchRange.values.map((row) =>
+              row.map((cell) => {
+                const cellValue = String(cell ?? '');
+                let newValue = cellValue;
 
+                if (input.matchEntireCell) {
+                  // Match entire cell
+                  if (input.matchCase) {
+                    if (cellValue === input.find) {
+                      newValue = input.replace;
+                      replacedCount++;
+                    }
+                  } else {
+                    if (cellValue.toLowerCase() === input.find.toLowerCase()) {
+                      newValue = input.replace;
+                      replacedCount++;
+                    }
+                  }
+                } else {
+                  // Match substring
+                  if (input.matchCase) {
+                    if (cellValue.includes(input.find)) {
+                      newValue = cellValue.split(input.find).join(input.replace);
+                      replacedCount++;
+                    }
+                  } else {
+                    const regex = new RegExp(input.find.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'gi');
+                    if (regex.test(cellValue)) {
+                      newValue = cellValue.replace(regex, input.replace);
+                      replacedCount++;
+                    }
+                  }
+                }
+
+                return newValue;
+              })
+            );
+
+            // Write the updated values back
+            searchRange.values = newValues;
             await context.sync();
 
             return {
               success: true,
-              data: { replaced: replacedCount, find: input.find, replace: input.replace },
+              data: {
+                replaced: replacedCount,
+                find: input.find,
+                replace: input.replace,
+                range: searchRange.address
+              },
             };
           }
 
@@ -539,17 +593,54 @@ export function useExcelTools() {
             const sourceRange = sheet.getRange(input.sourceRange);
             const destRange = sheet.getRange(input.destinationRange);
 
+            // Load dimensions to check if we're copying a single cell to multiple cells
+            sourceRange.load('rowCount, columnCount');
+            destRange.load('rowCount, columnCount');
+            await context.sync();
+
+            const isSingleCellSource = sourceRange.rowCount === 1 && sourceRange.columnCount === 1;
+            const isMultiCellDest = destRange.rowCount > 1 || destRange.columnCount > 1;
+
             if (input.copyType === 'all' || !input.copyType) {
-              sourceRange.copyFrom(sourceRange, Excel.RangeCopyType.all);
               destRange.copyFrom(sourceRange, Excel.RangeCopyType.all);
             } else if (input.copyType === 'values') {
               sourceRange.load('values');
               await context.sync();
-              destRange.values = sourceRange.values;
+
+              if (isSingleCellSource && isMultiCellDest) {
+                // Fill entire destination with single source value
+                const value = sourceRange.values[0][0];
+                const filledValues: any[][] = [];
+                for (let row = 0; row < destRange.rowCount; row++) {
+                  const rowValues: any[] = [];
+                  for (let col = 0; col < destRange.columnCount; col++) {
+                    rowValues.push(value);
+                  }
+                  filledValues.push(rowValues);
+                }
+                destRange.values = filledValues;
+              } else {
+                destRange.values = sourceRange.values;
+              }
             } else if (input.copyType === 'formulas') {
               sourceRange.load('formulas');
               await context.sync();
-              destRange.formulas = sourceRange.formulas;
+
+              if (isSingleCellSource && isMultiCellDest) {
+                // Fill entire destination with formula (Excel auto-adjusts references)
+                const formula = sourceRange.formulas[0][0];
+                const filledFormulas: string[][] = [];
+                for (let row = 0; row < destRange.rowCount; row++) {
+                  const rowFormulas: string[] = [];
+                  for (let col = 0; col < destRange.columnCount; col++) {
+                    rowFormulas.push(formula);
+                  }
+                  filledFormulas.push(rowFormulas);
+                }
+                destRange.formulas = filledFormulas;
+              } else {
+                destRange.formulas = sourceRange.formulas;
+              }
             } else if (input.copyType === 'formats') {
               destRange.copyFrom(sourceRange, Excel.RangeCopyType.formats);
             }
@@ -562,6 +653,7 @@ export function useExcelTools() {
                 sourceRange: input.sourceRange,
                 destinationRange: input.destinationRange,
                 copyType: input.copyType,
+                cellsCopied: destRange.rowCount * destRange.columnCount,
               },
             };
           }

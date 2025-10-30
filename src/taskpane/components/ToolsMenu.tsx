@@ -1,5 +1,6 @@
 import { useState, useRef, useEffect } from 'react';
 import { MoreVertical24Regular, Checkmark24Regular } from '@fluentui/react-icons';
+import type { ChatMessage } from '../lib/types';
 import '../styles/tools-menu.css';
 
 interface FreezeState {
@@ -7,7 +8,11 @@ interface FreezeState {
   firstColumnFrozen: boolean;
 }
 
-export default function ToolsMenu() {
+interface ToolsMenuProps {
+  messages?: ChatMessage[];
+}
+
+export default function ToolsMenu({ messages = [] }: ToolsMenuProps) {
   const [isOpen, setIsOpen] = useState(false);
   const [freezeState, setFreezeState] = useState<FreezeState>({
     topRowFrozen: false,
@@ -265,7 +270,42 @@ export default function ToolsMenu() {
     }
   };
 
+  const handleCopyEntireChat = async () => {
+    try {
+      if (messages.length === 0) {
+        alert('No chat history to copy');
+        return;
+      }
+
+      // Format all messages as text
+      const chatText = messages
+        .map((msg) => {
+          const role = msg.role === 'user' ? 'User' : 'Claude';
+          const content = typeof msg.content === 'string'
+            ? msg.content
+            : msg.content.filter((block) => block.type === 'text').map((block) => block.text).join('\n');
+          return `${role}:\n${content}\n`;
+        })
+        .join('\n---\n\n');
+
+      // Copy to clipboard
+      await navigator.clipboard.writeText(chatText);
+      alert('Chat copied to clipboard!');
+      setIsOpen(false);
+    } catch (error) {
+      console.error('Copy chat error:', error);
+      alert('Error copying chat to clipboard');
+    }
+  };
+
   const tools = [
+    {
+      label: 'Copy Entire Chat to Clipboard',
+      action: handleCopyEntireChat,
+      description: 'Copy all chat messages to clipboard',
+      active: false,
+    },
+    { divider: true },
     {
       label: 'AutoFit Columns & Rows',
       action: handleAutoFit,
