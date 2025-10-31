@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html lang="en-US" data-semplice="6.2.3">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, height=device-height, viewport-fit=cover" />
+		<meta name='robots' content='noindex, follow' />
+	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
+	<link rel='preload' as='script' href='https://octoberwip.com/wp-content/themes/semplice6/assets/js/shared.scripts.min.js?ver=6.2.3' data-wpacu-preload-js='1'>
+
+	<!-- This site is optimized with the Yoast SEO plugin v20.4 - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>Page not found &ndash; OCTOBER®</title>
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:title" content="Page not found &ndash; OCTOBER®" />
+	<meta property="og:site_name" content="OCTOBER®" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://octoberwip.com/#website","url":"https://octoberwip.com/","name":"OCTOBER® WIP","description":"An Independent Design Studio.","publisher":{"@id":"https://octoberwip.com/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://octoberwip.com/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"Organization","@id":"https://octoberwip.com/#organization","name":"OCTOBER®","url":"https://octoberwip.com/","logo":{"@type":"ImageObject","inLanguage":"en-US","@id":"https://octoberwip.com/#/schema/logo/image/","url":"https://octoberwip.com/wp-content/uploads/2021/01/Light.png","contentUrl":"https://octoberwip.com/wp-content/uploads/2021/01/Light.png","width":1080,"height":1080,"caption":"OCTOBER®"},"image":{"@id":"https://octoberwip.com/#/schema/logo/image/"},"sameAs":["https://twitter.com/octoberwip","https://www.instagram.com/octoberwip"]}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link href='https://fonts.gstatic.com' crossorigin rel='preconnect' />
+<style id='wp-emoji-styles-inline-css' type='text/css'>
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+</style>
+<link rel='stylesheet' id='wp-block-library-css' href='https://octoberwip.com/wp-includes/css/dist/block-library/style.min.css?ver=6.8.3' type='text/css' media='all' />
+<style id='classic-theme-styles-inline-css' type='text/css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id='global-styles-inline-css' type='text/css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='semplice-stylesheet-css' href='https://octoberwip.com/wp-content/themes/semplice6/style.css?ver=6.2.3' type='text/css' media='all' />
+<link rel='stylesheet' id='semplice-frontend-stylesheet-css' href='https://octoberwip.com/wp-content/themes/semplice6/assets/css/frontend.min.css?ver=6.2.3' type='text/css' media='all' />
+<link rel='stylesheet' id='mediaelement-css' href='https://octoberwip.com/wp-includes/js/mediaelement/mediaelementplayer-legacy.min.css?ver=4.2.17' type='text/css' media='all' />
+<script   type="text/javascript" src="https://octoberwip.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script   type="text/javascript" src="https://octoberwip.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<link rel="https://api.w.org/" href="https://octoberwip.com/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://octoberwip.com/wp-json/wp/v2/pages/175" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://octoberwip.com/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 6.8.3" />
+<link rel='shortlink' href='https://octoberwip.com/?p=175' />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://octoberwip.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Foctoberwip.com%2F404-2" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://octoberwip.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Foctoberwip.com%2F404-2&#038;format=xml" />
+
+<link rel="preload" as="font" href="https://octoberwip.com/wp-content/uploads/2020/12/Inter-Regular.ttf" crossorigin>
+<link rel="preload" as="font" href="https://octoberwip.com/wp-content/uploads/2021/04/Almarena-Almarena.ttf" crossorigin>
+<link rel="preload" as="font" href="https://octoberwip.com/wp-content/uploads/2021/04/Almarena-Almarena-Bold.ttf" crossorigin>
+<link rel="preload" as="font" href="https://octoberwip.com/wp-content/uploads/2020/12/Inter-Light.ttf" crossorigin>
+<link rel="preload" as="font" href="https://octoberwip.com/wp-content/uploads/2020/12/Inter-Medium.ttf" crossorigin>
+<link rel="preload" as="font" href="https://octoberwip.com/wp-content/uploads/2020/12/Inter-SemiBold.ttf" crossorigin>
+<link rel="preload" as="font" href="https://octoberwip.com/wp-content/uploads/2021/04/Almarena-Almarena-Light.ttf" crossorigin><link rel='stylesheet' href='https://use.typekit.net/fvo5kua.css'><style type="text/css" id="semplice-webfonts-selfhosted">@font-face {font-family: 'SpaceMono-Bold';src: url('https://octoberwip.com/wp-content/uploads/2020/11/SpaceMono-Bold.ttf') format('truetype');}@font-face {font-family: 'SpaceMono-Regular';src: url('https://octoberwip.com/wp-content/uploads/2020/11/SpaceMono-Regular.ttf') format('truetype');}@font-face {font-family: 'SpaceMono-BoldItalic';src: url('https://octoberwip.com/wp-content/uploads/2020/11/SpaceMono-BoldItalic.ttf') format('truetype');}@font-face {font-family: 'SpaceMono-Italic';src: url('https://octoberwip.com/wp-content/uploads/2020/11/SpaceMono-Italic.ttf') format('truetype');}@font-face {font-family: 'Inter-Thin';src: url('https://octoberwip.com/wp-content/uploads/2020/12/Inter-Thin.ttf') format('truetype');}@font-face {font-family: 'Inter-SemiBold';src: url('https://octoberwip.com/wp-content/uploads/2020/12/Inter-SemiBold.ttf') format('truetype');}@font-face {font-family: 'Inter-ExtraLight';src: url('https://octoberwip.com/wp-content/uploads/2020/12/Inter-ExtraLight.ttf') format('truetype');}@font-face {font-family: 'Inter-Regular';src: url('https://octoberwip.com/wp-content/uploads/2020/12/Inter-Regular.ttf') format('truetype');}@font-face {font-family: 'Inter-Medium';src: url('https://octoberwip.com/wp-content/uploads/2020/12/Inter-Medium.ttf') format('truetype');}@font-face {font-family: 'Inter-Light';src: url('https://octoberwip.com/wp-content/uploads/2020/12/Inter-Light.ttf') format('truetype');}@font-face {font-family: 'Inter-ExtraBold';src: url('https://octoberwip.com/wp-content/uploads/2020/12/Inter-ExtraBold.ttf') format('truetype');}@font-face {font-family: 'Inter-Bold';src: url('https://octoberwip.com/wp-content/uploads/2020/12/Inter-Bold.ttf') format('truetype');}@font-face {font-family: 'Inter-Black';src: url('https://octoberwip.com/wp-content/uploads/2020/12/Inter-Black.ttf') format('truetype');}@font-face {font-family: 'MigraItalic-ExtraboldItalic';src: url('https://octoberwip.com/wp-content/uploads/2021/01/MigraItalic-ExtraboldItalic.ttf') format('truetype');}@font-face {font-family: 'Migra-Extrabold';src: url('https://octoberwip.com/wp-content/uploads/2021/01/Migra-Extrabold.ttf') format('truetype');}@font-face {font-family: 'Migra-Extralight';src: url('https://octoberwip.com/wp-content/uploads/2021/01/Migra-Extralight.ttf') format('truetype');}@font-face {font-family: 'MigraItalic-ExtralightItalic';src: url('https://octoberwip.com/wp-content/uploads/2021/01/MigraItalic-ExtralightItalic.ttf') format('truetype');}@font-face {font-family: 'Almarena-Almarena-Bold';src: url('https://octoberwip.com/wp-content/uploads/2021/04/Almarena-Almarena-Bold.ttf') format('truetype');}@font-face {font-family: 'Almarena-Almarena-Display-Bold';src: url('https://octoberwip.com/wp-content/uploads/2021/04/Almarena-Almarena-Display-Bold.ttf') format('truetype');}@font-face {font-family: 'Almarena-Almarena-Display-Regular';src: url('https://octoberwip.com/wp-content/uploads/2021/04/Almarena-Almarena-Display-Regular.ttf') format('truetype');}@font-face {font-family: 'Almarena-Almarena';src: url('https://octoberwip.com/wp-content/uploads/2021/04/Almarena-Almarena.ttf') format('truetype');}@font-face {font-family: 'Almarena-Almarena-Light';src: url('https://octoberwip.com/wp-content/uploads/2021/04/Almarena-Almarena-Light.ttf') format('truetype');}@font-face {font-family: 'Almarena-Almarena-Display-Light';src: url('https://octoberwip.com/wp-content/uploads/2021/04/Almarena-Almarena-Display-Light.ttf') format('truetype');}</style><style type="text/css" id="semplice-webfonts-css">.font_tm7rwcdm0, [data-font="font_tm7rwcdm0"], [data-font="font_tm7rwcdm0"] li a {font-family: "SpaceMono-Bold", sans-serif;font-weight: 400;font-variation-settings: normal;font-style: normal;}.font_qfcemwf3p, [data-font="font_qfcemwf3p"], [data-font="font_qfcemwf3p"] li a, #content-holder h5, #content-holder h6 {font-family: "SpaceMono-Regular", sans-serif;font-weight: 400;font-variation-settings: normal;font-style: normal;}.font_7m94rbi7p, [data-font="font_7m94rbi7p"], [data-font="font_7m94rbi7p"] li a {font-family: "SpaceMono-BoldItalic", sans-serif;font-weight: 400;font-variation-settings: normal;font-style: normal;}.font_01r0gw2sw, [data-font="font_01r0gw2sw"], [data-font="font_01r0gw2sw"] li a {font-family: "SpaceMono-Italic", sans-serif;font-weight: 400;font-variation-settings: normal;font-style: normal;}.font_3m7papcvh, [data-font="font_3m7papcvh"], [data-font="font_3m7papcvh"] li a {font-family: "Inter-SemiBold", sans-serif;font-weight: 400;font-variation-settings: normal;font-style: normal;}.font_ckws9lf9p, [data-font="font_ckws9lf9p"], [data-font="font_ckws9lf9p"] li a {font-family: "Inter-ExtraLight", sans-serif;font-weight: 400;font-variation-settings: normal;font-style: normal;}.font_hrgm61rbt, [data-font="font_hrgm61rbt"], [data-font="font_hrgm61rbt"] li a, #content-holder p, #content-holder li {font-family: "Inter-Regular", sans-serif;font-weight: 400;font-variation-settings: normal;font-style: normal;}.font_ywr0egvk0, [data-font="font_ywr0egvk0"], [data-font="font_ywr0egvk0"] li a {font-family: "Inter-Medium", sans-serif;font-weight: 400;font-variation-settings: normal;font-style: normal;}.font_r8u163hs5, [data-font="font_r8u163hs5"], [data-font="font_r8u163hs5"] li a {font-family: "Inter-Light", sans-serif;font-weight: 400;font-variation-settings: normal;font-style: normal;}.font_h1iwggy0m, [data-font="font_h1iwggy0m"], [data-font="font_h1iwggy0m"] li a {font-family: "Inter-ExtraBold", sans-serif;font-weight: 400;font-variation-settings: normal;font-style: normal;}.font_6bmhuaw9p, [data-font="font_6bmhuaw9p"], [data-font="font_6bmhuaw9p"] li a {font-family: "Inter-Bold", sans-serif;font-weight: 400;font-variation-settings: normal;font-style: normal;}.font_xefed7an0, [data-font="font_xefed7an0"], [data-font="font_xefed7an0"] li a {font-family: "Inter-Black", sans-serif;font-weight: 400;font-variation-settings: normal;font-style: normal;}.font_vftrqvjxu, [data-font="font_vftrqvjxu"], [data-font="font_vftrqvjxu"] li a {font-family: "MigraItalic-ExtraboldItalic", sans-serif;font-weight: 400;font-variation-settings: normal;font-style: normal;}.font_m2sozy9il, [data-font="font_m2sozy9il"], [data-font="font_m2sozy9il"] li a {font-family: "Migra-Extrabold", sans-serif;font-weight: 400;font-variation-settings: normal;font-style: normal;}.font_g70p1xi3j, [data-font="font_g70p1xi3j"], [data-font="font_g70p1xi3j"] li a {font-family: "Migra-Extralight", sans-serif;font-weight: 400;font-variation-settings: normal;font-style: normal;}.font_78cax6459, [data-font="font_78cax6459"], [data-font="font_78cax6459"] li a {font-family: "MigraItalic-ExtralightItalic", sans-serif;font-weight: 400;font-variation-settings: normal;font-style: normal;}.font_il1uhb6wx, [data-font="font_il1uhb6wx"], [data-font="font_il1uhb6wx"] li a, #content-holder h1, #content-holder h2 {font-family: "Almarena-Almarena-Bold", sans-serif;font-weight: 400;font-variation-settings: normal;font-style: normal;}.font_32ejw8v2j, [data-font="font_32ejw8v2j"], [data-font="font_32ejw8v2j"] li a {font-family: "Almarena-Almarena-Display-Bold", sans-serif;font-weight: 400;font-variation-settings: normal;font-style: normal;}.font_0lzpv374w, [data-font="font_0lzpv374w"], [data-font="font_0lzpv374w"] li a {font-family: "Almarena-Almarena-Display-Regular", sans-serif;font-weight: 400;font-variation-settings: normal;font-style: normal;}.font_sgf6puuc4, [data-font="font_sgf6puuc4"], [data-font="font_sgf6puuc4"] li a, #content-holder h3, #content-holder h4 {font-family: "Almarena-Almarena", sans-serif;font-weight: 400;font-variation-settings: normal;font-style: normal;}.font_ssux2rouv, [data-font="font_ssux2rouv"], [data-font="font_ssux2rouv"] li a {font-family: "Almarena-Almarena-Light", sans-serif;font-weight: 400;font-variation-settings: normal;font-style: normal;}.font_b9ld4v3ay, [data-font="font_b9ld4v3ay"], [data-font="font_b9ld4v3ay"] li a {font-family: "Almarena-Almarena-Display-Light", sans-serif;font-weight: 400;font-variation-settings: normal;font-style: normal;}</style>
+		<style type="text/css" id="semplice-custom-css">
+			
+			
+		@font-face {
+			font-family: "Inter";
+			font-style:  normal;
+			font-weight: 100 900;
+			font-display: swap;
+			src: url("https://octoberwip.com/wp-content/themes/semplice6/assets/fonts/inter.woff2") format("woff2");
+		}
+	
+			#content-holder h1 { font-size: 3.3333333333333335rem;line-height: 3.888888888888889rem;}@media screen and (min-width: 992px) and (max-width: 1169.98px) { }@media screen and (min-width: 768px) and (max-width: 991.98px) { }@media screen and (min-width: 544px) and (max-width: 767.98px) { }@media screen and (max-width: 543.98px) { }
+			
+			
+		.project-panel {
+			background: #ffffff;
+			padding: 2.5rem 0rem;
+		}
+		[data-pp-gutter="no"] .project-panel .pp-thumbs,
+		.project-panel .pp-thumbs {
+			margin-bottom: -1.666666666666667rem;
+		}
+		#content-holder .panel-label, .projectnav-preview .panel-label {
+			color: #000000;
+			font-size: 1.777777777777778rem;
+			text-transform: none;
+			padding-left: 0rem;
+			padding-bottom: 1.666666666666667rem;
+			text-align: left;
+			line-height: 1;
+		}
+		.project-panel .pp-title {
+			padding: 0.8333333333333334rem 0rem 1.666666666666667rem 0rem;
+		}
+		.project-panel .pp-title a {
+			color: #000000; 
+			font-size: 1rem; 
+			text-transform: none;
+		} 
+		.project-panel .pp-title span {
+			color: #999999;
+			font-size: 0.7222222222222222rem;
+			text-transform: none;
+		}
+		.semplice-next-prev {
+			background: #ffffff;
+			padding: 1.9444444444444444rem 0rem 1.9444444444444444rem 0rem;
+		}
+		.semplice-next-prev .np-inner {
+			height: 9.444444444444445rem;
+		}
+		.semplice-next-prev .np-inner .np-link .np-prefix,
+		.semplice-next-prev .np-inner .np-link .np-label {
+			color: #000000;
+			font-size: 1.2222222222222223rem;
+			text-transform: none;
+			letter-spacing: 0rem;
+		}
+		.semplice-next-prev .np-inner .np-link .np-text-above {
+			padding-bottom: 0.5555555555555556rem;
+		}
+		.semplice-next-prev .np-inner .np-link .np-label-above {
+			color: #aaaaaa;
+			font-size: 0.7777777777777778rem;
+			text-transform: uppercase;
+			letter-spacing: 1px;
+		}
+		.semplice-next-prev .np-inner .np-link .np-text {
+			padding: 0.8333333333333334rem 0rem;
+		}
+		.semplice-next .np-text {
+			margin-right: -0rem;
+		}
+		.semplice-next-prev .nextprev-seperator {
+			width: 1px;
+			margin: 1.666666666666667rem -0px;
+			background: #000000;
+		}
+	
+			.np-link:hover {
+				background: #ffffff;
+			}
+			.np-link:hover .np-text .np-label,
+			.np-link:hover .np-text .np-prefix {
+				color: #000000 !important;
+			}
+			.np-link:hover .np-label-above {
+				color: #000000 !important;
+			}
+		
+						.np-inner:hover .np-link { opacity: 0.4; }
+						.np-inner .np-link:hover .np-bg { transform: scale(1.07); }
+					
+			.is-content { color: #000000; }a { color: #aaaaaa; }a:hover { color: #00b2a2; }<meta name="theme-color" content="#000000">
+
+::selection {
+  	background-color: #F5F5F5;
+	color: #00B2A2;
+}
+
+.border-radius {
+ border-radius: 10px; 
+}
+
+.message-card::selection {
+  	background-color: #F5F5F5 !important;
+	color: #2851E7 !important;
+}
+
+.message-card-inverted::selection {
+  	background-color: #0a0a0a !important;
+	color: #ffffff !important;
+}
+
+.footer-bar-fixed {
+	position: fixed !important;
+	left: 0 !important;
+	bottom: 0 !important;
+}
+
+.rounded-bottom-corners {
+  	border-radius: 0px 0px 12px 12px;
+}
+
+.avoid-clicks {
+	pointer-events: none;
+}
+
+input {
+	caret-color:2851E7;
+}
+
+.logosquare {
+	margin: 2px;
+}
+
+/*.semplice-navbar {
+  mix-blend-mode: exclusion !important;
+}
+*/
+
+.trimitgradient {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#00b5a3+0,ffffff+100 */
+background: #00b5a3; /* Old browsers */
+background: -moz-linear-gradient(top,  #00b5a3 0%, #ffffff 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #00b5a3 0%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #00b5a3 0%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00b5a3', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+}
+
+.imagengradient {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#00b5a3+0,ffffff+100 */
+background: #8F86F5; /* Old browsers */
+background: -moz-linear-gradient(top,  #8F86F5 0%, #ffffff 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #8F86F5 0%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #8F86F5 0%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8F86F5', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+}
+
+.mvprgradient {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#00b5a3+0,ffffff+100 */
+background: #14B8A6; /* Old browsers */
+background: -moz-linear-gradient(top,  #14B8A6 0%, #ffffff 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #14B8A6 0%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #14B8A6 0%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#14B8A6', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+}
+
+.workwithusgradient {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#252737+0,ffffff+100 */
+background: #252737; /* Old browsers */
+background: -moz-linear-gradient(top,  #252737 0%, #ffffff 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #252737 0%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #252737 0%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#252737', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+
+}
+
+/*.semplice-navbar {mix-blend-mode: exclusion !important;} */
+
+.black-gradient {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000000+0,ffffff+100 */
+background: #000000; /* Old browsers */
+background: -moz-linear-gradient(top,  #000000 0%, #ffffff 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #000000 0%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #000000 0%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+}
+
+.quote {
+  border-left: 5px solid #7F90A0;
+}
+
+.blog-gradient {
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000000+0,1d1f28+100 */
+	background: #000000; /* Old browsers */
+	background: -moz-linear-gradient(top,  #000000 0%, #1d1f28 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  #000000 0%,#1d1f28 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  #000000 0%,#1d1f28 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#1d1f28',GradientType=0 ); /* IE6-9 */
+}
+
+/* Password protected page css */
+
+/* page background color */
+#content-holder .post-password-form {
+    background: #000000;
+}
+ 
+/* lock icon color */
+#content-holder .post-password-form .inner .password-lock {
+    fill: #00B5A3;
+}
+ 
+/* title color */
+#content-holder .post-password-form .inner p {
+    color: white;
+  	/*font-family: "Inter";*/
+  	font-weight: Medium;
+}
+ 
+/* sub title color */
+#content-holder .post-password-form .inner p span {
+    color: #777777;
+  	/*font-family: "Inter";*/
+ 	font-weight: Regular;
+}
+
+.outlined {
+  -webkit-text-stroke: 1px white;
+  -webkit-text-fill-color: rgba(57, 65, 197, 0.0);
+}
+
+.glassFill {
+  background: linear-gradient(126.6deg, rgba(255, 255, 255, 0.2) 28.69%, rgba(255, 255, 255, 0) 100%);
+  border: 1px solid;
+  border-image-source: linear-gradient(268.18deg, rgba(255, 255, 255, 0.6) -17.36%, rgba(239, 239, 239, 0) 15.78%), linear-gradient(117.99deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 33.89%);
+}#nprogress .bar { background: #00b2a2; }.back-to-top a svg { fill: #ffffff; }.back-to-top a img, .back-to-top a svg { width: 55; height: auto; }
+			
+			
+			#content-holder .thumb .thumb-inner .thumb-hover {background-color: rgba(0, 0, 0, 0.5);background-size: auto;background-position: 0% 0%;background-repeat: no-repeat;}#content-holder .thumb .thumb-hover-meta { padding: 2.22rem; }#content-holder .thumb .thumb-hover-meta .title { color: #ffffff; font-size: 1.33rem; text-transform: none; }#content-holder .thumb .thumb-hover-meta .category { color: #999999; font-size: 1rem; text-transform: none; }#content-holder .thumb video { opacity: 1; }
+			
+		</style>
+	
+		<style type="text/css" id="175-post-css">
+			#content-175 #section_f095faf91 {padding-top: 0rem;padding-bottom: 0rem;background-color: #ffffff;}@media screen and (min-width: 992px) and (max-width: 1169.98px) { #content-175 #section_f095faf91 {padding-top: 5.555555555555555rem;padding-right: 5.555555555555555rem;padding-bottom: 5.555555555555555rem;padding-left: 5.555555555555555rem;}}@media screen and (min-width: 768px) and (max-width: 991.98px) { #content-175 #section_f095faf91 {padding-top: 5.555555555555555rem;padding-right: 1.6666666666666667rem;padding-bottom: 5.555555555555555rem;padding-left: 1.6666666666666667rem;}}@media screen and (min-width: 544px) and (max-width: 767.98px) { #content-175 #section_f095faf91 {padding-top: 6.388888888888889rem;padding-right: 1.6666666666666667rem;padding-bottom: 6.388888888888889rem;padding-left: 1.6666666666666667rem;}}@media screen and (max-width: 543.98px) { #content-175 #section_f095faf91 {padding-top: 6.944444444444445rem;padding-bottom: 4.444444444444445rem;}}#content-175 #content_7d42275f7 {padding-top: 0rem;}#content-175 #content_7d42275f7 .is-content {}@media screen and (min-width: 544px) and (max-width: 767.98px) { #content-175 #content_7d42275f7 {padding-top: 1.3888888888888888rem;padding-bottom: 8.88888888888889rem;}#content-175 #content_7d42275f7 .is-content {}}@media screen and (max-width: 543.98px) { #content-175 #content_7d42275f7 {padding-top: 1.3888888888888888rem;padding-bottom: 2.5rem;}#content-175 #content_7d42275f7 .is-content {}}#content-175 #content_f53f5ed21 .is-content, #content-175 #content_f53f5ed21 .is-content:after, #content-175 #content_f53f5ed21 .is-content a, #content-175 #content_f53f5ed21 .is-content a:before, #content-175 #content_f53f5ed21 .is-content a:after, #content-175 #content_f53f5ed21 .is-content img { transition: all 0.7s var(--ease-out-expo); }#content-175 #content_f53f5ed21 .is-content {background-color: #f7f7f7;border-width: 0rem;border-radius: 5.555555555555555rem;border-color: #ffffff;}#content-175 #content_f53f5ed21 .is-content a, #content-175 #content_f53f5ed21 .is-content a:before, #content-175 #content_f53f5ed21 .is-content a:after {font-size: 1rem;color: #000000;border-radius: 5.555555555555555rem;padding-bottom: 0.5555555555555556rem;padding-left: 1.1111111111111112rem;padding-right: 1.1111111111111112rem;padding-top: 0.5555555555555556rem;}#content-175 #content_f53f5ed21 .is-content:hover {background-color: #ff7c22 !important;}#content-175 #content_f53f5ed21 .is-content:hover a, #content-175 #content_f53f5ed21 .is-content:hover a:before, #content-175 #content_f53f5ed21 .is-content:hover a:after {color: #ffffff !important;}@media screen and (min-width: 992px) and (max-width: 1169.98px) { #content-175 #content_f53f5ed21 .is-content:hover {background-color: #ff7c22 !important;}#content-175 #content_f53f5ed21 .is-content:hover a, #content-175 #content_f53f5ed21 .is-content:hover a:before, #content-175 #content_f53f5ed21 .is-content:hover a:after {color: #ffffff !important;}}@media screen and (min-width: 768px) and (max-width: 991.98px) { #content-175 #content_f53f5ed21 .is-content:hover {background-color: #ff7c22 !important;}#content-175 #content_f53f5ed21 .is-content:hover a, #content-175 #content_f53f5ed21 .is-content:hover a:before, #content-175 #content_f53f5ed21 .is-content:hover a:after {color: #ffffff !important;}}@media screen and (min-width: 544px) and (max-width: 767.98px) { #content-175 #content_f53f5ed21 .is-content:hover {background-color: #ff7c22 !important;}#content-175 #content_f53f5ed21 .is-content:hover a, #content-175 #content_f53f5ed21 .is-content:hover a:before, #content-175 #content_f53f5ed21 .is-content:hover a:after {color: #ffffff !important;}}@media screen and (max-width: 543.98px) { #content-175 #content_f53f5ed21 .is-content:hover {background-color: #ff7c22 !important;}#content-175 #content_f53f5ed21 .is-content:hover a, #content-175 #content_f53f5ed21 .is-content:hover a:before, #content-175 #content_f53f5ed21 .is-content:hover a:after {color: #ffffff !important;}}.is-frontend #content-175 #content_f53f5ed21 .is-content:hover { box-shadow: 0rem 0.05555555555555555rem 0.1111111111111111rem 0rem rgba(0,0,0,0.08); }#content-175 #content_f53f5ed21 {padding-top: 3.3333333333333335rem;}#content-175 #content_f53f5ed21 .is-content {box-shadow: 0rem 0.05555555555555555rem 0.1111111111111111rem 0rem rgba(0,0,0,0.05);}@media screen and (min-width: 544px) and (max-width: 767.98px) { #content-175 #content_f53f5ed21 {padding-bottom: 0rem;}#content-175 #content_f53f5ed21 .is-content {}}@media screen and (max-width: 543.98px) { #content-175 #content_f53f5ed21 {padding-top: 4.444444444444445rem;}#content-175 #content_f53f5ed21 .is-content {}}#content-175 .transition-wrap {}#content-175 .sections { margin-top: 0px !important; }#content-175 #section_2957ccec4 {padding-top: 2.7777777777777777rem;padding-bottom: 2.7777777777777777rem;background-color: #ffffff;}#content-175 #content_e790ed6fe {padding-bottom: 0.2777777777777778rem;}#content-175 #content_e790ed6fe .is-content {}#content-175 #content_126dc80bb {padding-bottom: 0.8888888888888888rem;}#content-175 #content_126dc80bb .is-content {}#content-175 #content_522bddb7d .is-content {}
+				#content-175 #content_522bddb7d .mailchimp-input {
+					color: #ffffff;
+					background-color: #fafafa;
+					margin-right: 0.8888888888888888rem;
+					width: 14.722222222222221rem;
+					text-align: left;
+					font-size: 0.8888888888888888rem;
+					padding-top: 0.8888888888888888rem;
+					padding-bottom: 0.8888888888888888rem;
+					padding-left: 0.8888888888888888rem;
+					padding-right: 0.8888888888888888rem;
+					border-width: 0.05555555555555555rem;
+					border-color: transparent;
+					border-radius: 0.16666666666666666rem;
+				}
+				#content-175 #content_522bddb7d .mailchimp-input:hover, #content-175 #content_522bddb7d .mailchimp-input:focus {
+					color: #000000;
+					background-color: #fafafa;
+					border-color: #00b2a2;
+				}
+				#content-175 #content_522bddb7d input::placeholder { color: #aaaaaa;	}
+				#content-175 #content_522bddb7d input:hover::placeholder { color: #aaaaaa;	}
+
+			
+					@media screen and (max-width: 543.98px) {
+						#content-175 #content_522bddb7d .mailchimp-input { margin-bottom: 0.8888888888888888rem; }
+					}
+				
+				#content-175 #content_522bddb7d button {
+					color: #ffffff;
+					font-size: 1rem;
+					letter-spacing: 0;
+					background-color: #000000;
+					border-width: 0rem;
+					border-color: #000000;
+					border-radius: 55.5rem;
+					padding-top: 1rem;
+					padding-bottom: 1rem;
+					padding-left: 1.6666666666666667rem;
+					padding-right: 1.6666666666666667rem;
+				}
+				#content-175 #content_522bddb7d button:hover {
+					color: #ffffff;
+					letter-spacing: 0;
+					background-color: #00b2a2;
+					border-color: #000000;
+				}
+			#content-175 #section_e0425f186 {padding-top: 3.3333333333333335rem;padding-bottom: 3.3333333333333335rem;background-color: #ffffff;}@media screen and (min-width: 992px) and (max-width: 1169.98px) { #content-175 #section_e0425f186 {padding-right: 1.9444444444444444rem;padding-left: 1.9444444444444444rem;}}#content-175 #content_9f8a345b4 .spacer { background-color: #ffffff; }#content-175 #content_9f8a345b4 .spacer { height: 2.5rem; }#content-175 #content_31f29142b {padding-top: 0rem;padding-right: 25.833333333333332rem;padding-left: 0rem;margin-left: -0.8333333333333334rem;}#content-175 #content_31f29142b .is-content {}@media screen and (min-width: 992px) and (max-width: 1169.98px) { #content-175 #content_31f29142b {padding-right: 18.055555555555557rem;}#content-175 #content_31f29142b .is-content {}}@media screen and (min-width: 768px) and (max-width: 991.98px) { #content-175 #content_31f29142b {padding-right: 13.055555555555555rem;}#content-175 #content_31f29142b .is-content {}}@media screen and (min-width: 544px) and (max-width: 767.98px) { #content-175 #content_31f29142b {padding-right: 10.833333333333334rem;padding-left: 9.722222222222221rem;}#content-175 #content_31f29142b .is-content {}}@media screen and (max-width: 543.98px) { #content-175 #content_31f29142b {padding-right: 6.111111111111111rem;padding-left: 6.111111111111111rem;}#content-175 #content_31f29142b .is-content {}}#content-175 #content_2c8d8faa5 {padding-top: 1.3888888888888888rem;padding-bottom: 1.3888888888888888rem;}#content-175 #content_2c8d8faa5 .is-content {}@media screen and (min-width: 544px) and (max-width: 767.98px) { #content-175 #content_2c8d8faa5 {padding-left: 4.722222222222222rem;}#content-175 #content_2c8d8faa5 .is-content {}}@media screen and (max-width: 543.98px) { #content-175 #content_2c8d8faa5 {padding-left: 0rem;}#content-175 #content_2c8d8faa5 .is-content {}}#content-175 #content_61684c59c .socialprofiles .social-profile-instagram a svg path { fill: #aaaaaa; }.is-frontend #content-175 #content_61684c59c .socialprofiles .social-profile-instagram a:hover svg path { fill: #00b2a2 !important; }#content-175 #content_61684c59c .socialprofiles .social-profile-twitter a svg path { fill: #aaaaaa; }.is-frontend #content-175 #content_61684c59c .socialprofiles .social-profile-twitter a:hover svg path { fill: #00b2a2 !important; }#content-175 #content_61684c59c .socialprofiles .social-profile-linkedin a svg path { fill: #aaaaaa; }.is-frontend #content-175 #content_61684c59c .socialprofiles .social-profile-linkedin a:hover svg path { fill: #00b2a2 !important; }#content-175 #content_61684c59c .socialprofiles  .social-profile a:hover svg path { fill: #000000; }#content-175 #content_61684c59c .socialprofiles .social-profile svg path { fill: #aaaaaa; }#content-175 #content_61684c59c .socialprofiles .social-profile svg { height: 0.8888888888888888rem; }#content-175 #content_61684c59c .socialprofiles { margin: 0 -0.5556rem; }#content-175 #content_61684c59c .socialprofiles .social-profile a { padding: 0 0.5556rem; }#content-175 #content_61684c59c .socialprofiles .social-profile a:hover svg path { fill: #00b2a2; }@media screen and (min-width: 992px) and (max-width: 1169.98px) { #content-175 #content_61684c59c .socialprofiles .social-profile svg path { fill: #aaaaaa; }#content-175 #content_61684c59c .socialprofiles .social-profile svg { height: 0.8888888888888888rem; }#content-175 #content_61684c59c .socialprofiles { margin: 0 -0.5556rem; }#content-175 #content_61684c59c .socialprofiles .social-profile a { padding: 0 0.5556rem; }#content-175 #content_61684c59c .socialprofiles .social-profile a:hover svg path { fill: #00b2a2; } }@media screen and (min-width: 768px) and (max-width: 991.98px) { #content-175 #content_61684c59c .socialprofiles .social-profile svg path { fill: #aaaaaa; }#content-175 #content_61684c59c .socialprofiles .social-profile svg { height: 0.8888888888888888rem; }#content-175 #content_61684c59c .socialprofiles { margin: 0 -0.5556rem; }#content-175 #content_61684c59c .socialprofiles .social-profile a { padding: 0 0.5556rem; }#content-175 #content_61684c59c .socialprofiles .social-profile a:hover svg path { fill: #00b2a2; } }@media screen and (min-width: 544px) and (max-width: 767.98px) { #content-175 #content_61684c59c .socialprofiles .social-profile svg path { fill: #aaaaaa; }#content-175 #content_61684c59c .socialprofiles .social-profile svg { height: 0.8888888888888888rem; }#content-175 #content_61684c59c .socialprofiles { margin: 0 -0.5556rem; }#content-175 #content_61684c59c .socialprofiles .social-profile a { padding: 0 0.5556rem; }#content-175 #content_61684c59c .socialprofiles .social-profile a:hover svg path { fill: #00b2a2; } }@media screen and (max-width: 543.98px) { #content-175 #content_61684c59c .socialprofiles .social-profile svg path { fill: #aaaaaa; }#content-175 #content_61684c59c .socialprofiles .social-profile svg { height: 0.8888888888888888rem; }#content-175 #content_61684c59c .socialprofiles { margin: 0 -0.5556rem; }#content-175 #content_61684c59c .socialprofiles .social-profile a { padding: 0 0.5556rem; }#content-175 #content_61684c59c .socialprofiles .social-profile a:hover svg path { fill: #00b2a2; } }#content-175 #content_ce407cf38 {padding-top: 1.3888888888888888rem;padding-right: 30.555555555555557rem;opacity: 0.3;}#content-175 #content_ce407cf38 .is-content {box-shadow: 0rem 0rem 0rem 0rem rgba(0,0,0,1);}@media screen and (min-width: 992px) and (max-width: 1169.98px) { #content-175 #content_ce407cf38 {padding-right: 22.22222222222222rem;}#content-175 #content_ce407cf38 .is-content {}}#content-175 #content_40411cc53 {padding-top: 1.3888888888888888rem;padding-bottom: 0rem;}#content-175 #content_40411cc53 .is-content {}@media screen and (min-width: 544px) and (max-width: 767.98px) { #content-175 #content_40411cc53 {padding-left: 4.722222222222222rem;}#content-175 #content_40411cc53 .is-content {}}@media screen and (max-width: 543.98px) { #content-175 #content_40411cc53 {padding-left: 0rem;}#content-175 #content_40411cc53 .is-content {}}#content-175 #content_203511888 .spacer { background-color: #212121; }#content-175 #content_203511888 .spacer { height: 0.05555555555555555rem; }#content-175 #content_203511888 {padding-top: 1.3888888888888888rem;}#content-175 #content_203511888 .is-content {}#content-175 #content_ce407cf38 .is-content{opacity: 1;border-color: #000000;border-width: 0;background-image: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 100%);transform: translateY(0) translateX(0) rotate(0deg) rotateY(0deg) rotateX(0deg) skew(0deg,0deg) scale(1,1);}@media screen and (min-width: 1170px) { #section_bc697181a { display: none !important; }}#content-175 #section_bc697181a {padding-top: 3.3333333333333335rem;padding-bottom: 3.3333333333333335rem;background-color: #ffffff;}@media screen and (min-width: 992px) and (max-width: 1169.98px) { #content-175 #section_bc697181a {padding-right: 1.9444444444444444rem;padding-left: 1.9444444444444444rem;}}#content-175 #content_1db853871 .spacer { background-color: #ffffff; }#content-175 #content_1db853871 .spacer { height: 2.5rem; }#content-175 #content_78c975eda {padding-top: 0rem;padding-right: 9.444444444444445rem;padding-left: 9.444444444444445rem;margin-left: -0.8333333333333334rem;}#content-175 #content_78c975eda .is-content {}@media screen and (min-width: 992px) and (max-width: 1169.98px) { #content-175 #content_78c975eda {padding-right: 18.055555555555557rem;}#content-175 #content_78c975eda .is-content {}}@media screen and (min-width: 768px) and (max-width: 991.98px) { #content-175 #content_78c975eda {padding-right: 13.055555555555555rem;}#content-175 #content_78c975eda .is-content {}}@media screen and (min-width: 544px) and (max-width: 767.98px) { #content-175 #content_78c975eda {padding-right: 10.833333333333334rem;padding-left: 9.722222222222221rem;}#content-175 #content_78c975eda .is-content {}}@media screen and (max-width: 543.98px) { #content-175 #content_78c975eda {padding-right: 6.111111111111111rem;padding-left: 6.111111111111111rem;}#content-175 #content_78c975eda .is-content {}}#content-175 #content_f435bd8ef {padding-top: 1.3888888888888888rem;padding-bottom: 1.3888888888888888rem;}#content-175 #content_f435bd8ef .is-content {}@media screen and (min-width: 544px) and (max-width: 767.98px) { #content-175 #content_f435bd8ef {padding-left: 4.722222222222222rem;}#content-175 #content_f435bd8ef .is-content {}}@media screen and (max-width: 543.98px) { #content-175 #content_f435bd8ef {padding-left: 0rem;}#content-175 #content_f435bd8ef .is-content {}}#content-175 #content_b80a28223 .socialprofiles .social-profile-instagram a svg path { fill: #aaaaaa; }.is-frontend #content-175 #content_b80a28223 .socialprofiles .social-profile-instagram a:hover svg path { fill: #ff7c22 !important; }#content-175 #content_b80a28223 .socialprofiles .social-profile-twitter a svg path { fill: #aaaaaa; }.is-frontend #content-175 #content_b80a28223 .socialprofiles .social-profile-twitter a:hover svg path { fill: #ff7c22 !important; }#content-175 #content_b80a28223 .socialprofiles .social-profile-linkedin a svg path { fill: #aaaaaa; }.is-frontend #content-175 #content_b80a28223 .socialprofiles .social-profile-linkedin a:hover svg path { fill: #ff7c22 !important; }#content-175 #content_b80a28223 .socialprofiles  .social-profile a:hover svg path { fill: #000000; }#content-175 #content_b80a28223 .socialprofiles .social-profile svg path { fill: #aaaaaa; }#content-175 #content_b80a28223 .socialprofiles .social-profile svg { height: 1.3333333333333333rem; }#content-175 #content_b80a28223 .socialprofiles { margin: 0 -0.5556rem; }#content-175 #content_b80a28223 .socialprofiles .social-profile a { padding: 0 0.5556rem; }#content-175 #content_b80a28223 .socialprofiles .social-profile a:hover svg path { fill: #00b2a2; }@media screen and (min-width: 992px) and (max-width: 1169.98px) { #content-175 #content_b80a28223 .socialprofiles .social-profile svg path { fill: #aaaaaa; }#content-175 #content_b80a28223 .socialprofiles .social-profile svg { height: 1.3333333333333333rem; }#content-175 #content_b80a28223 .socialprofiles { margin: 0 -0.5556rem; }#content-175 #content_b80a28223 .socialprofiles .social-profile a { padding: 0 0.5556rem; }#content-175 #content_b80a28223 .socialprofiles .social-profile a:hover svg path { fill: #00b2a2; } }@media screen and (min-width: 768px) and (max-width: 991.98px) { #content-175 #content_b80a28223 .socialprofiles .social-profile svg path { fill: #aaaaaa; }#content-175 #content_b80a28223 .socialprofiles .social-profile svg { height: 1.3333333333333333rem; }#content-175 #content_b80a28223 .socialprofiles { margin: 0 -0.5556rem; }#content-175 #content_b80a28223 .socialprofiles .social-profile a { padding: 0 0.5556rem; }#content-175 #content_b80a28223 .socialprofiles .social-profile a:hover svg path { fill: #00b2a2; } }@media screen and (min-width: 544px) and (max-width: 767.98px) { #content-175 #content_b80a28223 .socialprofiles .social-profile svg path { fill: #aaaaaa; }#content-175 #content_b80a28223 .socialprofiles .social-profile svg { height: 1.3333333333333333rem; }#content-175 #content_b80a28223 .socialprofiles { margin: 0 -0.5556rem; }#content-175 #content_b80a28223 .socialprofiles .social-profile a { padding: 0 0.5556rem; }#content-175 #content_b80a28223 .socialprofiles .social-profile a:hover svg path { fill: #00b2a2; } }@media screen and (max-width: 543.98px) { #content-175 #content_b80a28223 .socialprofiles .social-profile svg path { fill: #aaaaaa; }#content-175 #content_b80a28223 .socialprofiles .social-profile svg { height: 1.3333333333333333rem; }#content-175 #content_b80a28223 .socialprofiles { margin: 0 -0.5556rem; }#content-175 #content_b80a28223 .socialprofiles .social-profile a { padding: 0 0.5556rem; }#content-175 #content_b80a28223 .socialprofiles .social-profile a:hover svg path { fill: #00b2a2; } }#content-175 #content_b80a28223 {padding-top: 1.3888888888888888rem;padding-bottom: 1.3888888888888888rem;}#content-175 #content_b80a28223 .is-content {}#content-175 #content_2f7d6aac9 {padding-top: 1.3888888888888888rem;padding-right: 12.5rem;padding-left: 12.5rem;opacity: 0.3;}#content-175 #content_2f7d6aac9 .is-content {box-shadow: 0rem 0rem 0rem 0rem rgba(0,0,0,1);}@media screen and (min-width: 992px) and (max-width: 1169.98px) { #content-175 #content_2f7d6aac9 {padding-right: 22.22222222222222rem;}#content-175 #content_2f7d6aac9 .is-content {}}@media screen and (max-width: 543.98px) { #content-175 #content_2f7d6aac9 {padding-right: 10rem;padding-left: 10rem;}#content-175 #content_2f7d6aac9 .is-content {}}#content-175 #content_7783ea442 {padding-top: 1.3888888888888888rem;padding-bottom: 0rem;}#content-175 #content_7783ea442 .is-content {}@media screen and (min-width: 544px) and (max-width: 767.98px) { #content-175 #content_7783ea442 {padding-left: 4.722222222222222rem;}#content-175 #content_7783ea442 .is-content {}}@media screen and (max-width: 543.98px) { #content-175 #content_7783ea442 {padding-left: 0rem;}#content-175 #content_7783ea442 .is-content {}}#content-175 #content_380b09995 .spacer { background-color: #212121; }#content-175 #content_380b09995 .spacer { height: 0.05555555555555555rem; }#content-175 #content_380b09995 {padding-top: 1.3888888888888888rem;}#content-175 #content_380b09995 .is-content {}#content-175 #content_2f7d6aac9 .is-content{opacity: 1;border-color: #000000;border-width: 0;background-image: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 100%);transform: translateY(0) translateX(0) rotate(0deg) rotateY(0deg) rotateX(0deg) skew(0deg,0deg) scale(1,1);}
+			.nav_wtf6oihl9 { background-color: transparent;; }.nav_wtf6oihl9 { height: 4.444444444444445rem; }.is-frontend #content-175 .sections { margin-top: 4.444444444444445rem; }.nav_wtf6oihl9 .navbar-inner .logo, .nav_wtf6oihl9 .logo { margin-top: 0rem; }.nav_wtf6oihl9 .logo img, .nav_wtf6oihl9 .logo svg { width: 2.2222222222222223rem; }.nav_wtf6oihl9 .navbar-inner .hamburger a.menu-icon span { background-color: #000000; }.nav_wtf6oihl9 .navbar-inner .hamburger a.menu-icon { width: 24; }.nav_wtf6oihl9 .navbar-inner .hamburger a.menu-icon span { height: 3px; }.nav_wtf6oihl9 .navbar-inner .hamburger a.open-menu span::before { transform: translateY(-9px); }.nav_wtf6oihl9 .navbar-inner .hamburger a.open-menu span::after { transform: translateY(9px); }.nav_wtf6oihl9 .navbar-inner .hamburger a.open-menu:hover span::before { transform: translateY(-11px); }.nav_wtf6oihl9 .navbar-inner .hamburger a.open-menu:hover span::after { transform: translateY(11px); }.nav_wtf6oihl9 .navbar-inner .hamburger a.menu-icon { height: 21px; }.nav_wtf6oihl9 .navbar-inner .hamburger a.menu-icon span { margin-top: 10.5px; }.nav_wtf6oihl9 .navbar-inner .custom-hamburger img { width: 2.2222222222222223rem; }.nav_wtf6oihl9 .navbar-inner nav ul li a span { font-size: 1.4444444444444444rem; }.nav_wtf6oihl9 .navbar-inner nav ul li a span { color: #000000; }.nav_wtf6oihl9 .navbar-inner nav ul li a span { border-bottom-width: 0rem; }.nav_wtf6oihl9 .navbar-inner nav ul li a span { border-bottom-color: transparent; }.nav_wtf6oihl9 .navbar-inner nav ul li a:hover span, .nav_wtf6oihl9 .navbar-inner nav ul li.wrap-focus a span, .nav_wtf6oihl9 .navbar-inner nav ul li.current-menu-item a span, .nav_wtf6oihl9 .navbar-inner nav ul li.current_page_item a span, [data-post-type="project"] .nav_wtf6oihl9 .navbar-inner nav ul li.portfolio-grid a span, [data-post-type="post"] .nav_wtf6oihl9 .navbar-inner nav ul li.blog-overview a span { color: #00b2a2; }.nav_wtf6oihl9 .navbar-inner nav ul li a:hover span, .nav_wtf6oihl9 .navbar-inner nav ul li.current-menu-item a span, .nav_wtf6oihl9 .navbar-inner nav ul li.current_page_item a span, .nav_wtf6oihl9 .navbar-inner nav ul li.wrap-focus a span, [data-post-type="project"] .nav_wtf6oihl9 .navbar-inner nav ul li.portfolio-grid a span, [data-post-type="post"] .nav_wtf6oihl9 .navbar-inner nav ul li.blog-overview a span { border-bottom-color: transparent; }#overlay-menu { background-color: rgba(255, 255, 255, 1); }#overlay-menu .overlay-menu-inner nav { text-align: left; }#overlay-menu .overlay-menu-inner nav ul li a span { font-size: 2.5rem; }#overlay-menu .overlay-menu-inner nav ul li a span { color: #000000; }#overlay-menu .overlay-menu-inner nav ul li a { padding-top: 0.55555555555556rem; }#overlay-menu .overlay-menu-inner nav ul li a { padding-bottom: 0.55555555555556rem; }#overlay-menu .overlay-menu-inner nav ul li a span { border-bottom-color: transparent; }#overlay-menu .overlay-menu-inner nav ul li a span { border-bottom-width: 0rem; }#overlay-menu .overlay-menu-inner nav ul li a:hover span, #overlay-menu .overlay-menu-inner nav ul li.current-menu-item a span, #overlay-menu .overlay-menu-inner nav ul li.current_page_item a span, #overlay-menu .overlay-menu-inner nav ul li.wrap-focus a span, [data-post-type="project"] #overlay-menu .overlay-menu-inner nav ul li.portfolio-grid a span, [data-post-type="post"] #overlay-menu .overlay-menu-inner nav ul li.blog-overview a span { color: #ff7c22; }#overlay-menu .overlay-menu-inner nav ul li a:hover span, #overlay-menu .overlay-menu-inner nav ul li.current-menu-item a span, #overlay-menu .overlay-menu-inner nav ul li.current_page_item a span, #overlay-menu .overlay-menu-inner nav ul li.wrap-focus a span, [data-post-type="project"] #overlay-menu .overlay-menu-inner nav ul li.portfolio-grid a span, [data-post-type="post"] #overlay-menu .overlay-menu-inner nav ul li.blog-overview a span { border-bottom-color: transparent; }@media screen and (min-width: 992px) and (max-width: 1169.98px) { .nav_wtf6oihl9 .navbar-inner .hamburger a.menu-icon { height: 21px; }.nav_wtf6oihl9 .navbar-inner .hamburger a.menu-icon span { margin-top: 10.5px; }}@media screen and (min-width: 768px) and (max-width: 991.98px) { .nav_wtf6oihl9 .navbar-inner .hamburger a.menu-icon { height: 21px; }.nav_wtf6oihl9 .navbar-inner .hamburger a.menu-icon span { margin-top: 10.5px; }}@media screen and (min-width: 544px) and (max-width: 767.98px) { .nav_wtf6oihl9 .navbar-inner .hamburger a.menu-icon { height: 21px; }.nav_wtf6oihl9 .navbar-inner .hamburger a.menu-icon span { margin-top: 10.5px; }}@media screen and (max-width: 543.98px) { .nav_wtf6oihl9 .navbar-inner .hamburger a.menu-icon { height: 21px; }.nav_wtf6oihl9 .navbar-inner .hamburger a.menu-icon span { margin-top: 10.5px; }}
+		</style>
+	<noscript><style id="rocket-lazyload-nojs-css">.rll-youtube-player, [data-lazy-src]{display:none !important;}</style></noscript>		<style>html{margin-top:0px!important;}#wpadminbar{top:auto!important;bottom:0;}</style>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-0DDK5CDPGT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-0DDK5CDPGT');
+</script><link rel="shortcut icon" type="image/png" href="https://octoberwip.com/wp-content/uploads/2021/05/Star.svg" sizes="32x32"><meta name="msapplication-TileColor" content="#000000">
+<meta name="theme-color" content="#000000">
+
+<meta name="theme-color"
+content="#000000"
+media="(prefers-color-scheme: light)">
+<meta name="theme-color"
+content="#000000"
+media="(prefers-color-scheme: dark)">	</head>
+	<body class="wp-singular page-template-default page page-id-175 wp-theme-semplice6 is-frontend static-mode static-transitions mejs-semplice-ui error404 pp404-cmp" data-post-type="page" data-post-id="175">
+		<div id="content-holder" data-active-post="175">
+						<header class="nav_wtf6oihl9 semplice-navbar active-navbar sticky-nav  no-headroom non-container-nav non-exclusive"  data-cover-transparent="disabled" data-bg-overlay-visibility="visible" data-mobile-fallback="enabled">
+							<div class="container" data-nav="logo-left-menu-right">
+								<div class="navbar-inner menu-type-text" data-xl-width="12" data-navbar-type="container">
+									<div class="logo navbar-left"><a  href="https://octoberwip.com" title="OCTOBER®"><img src="https://octoberwip.com/wp-content/uploads/2021/05/Star.svg" alt="logo"></a></div>
+									<nav class="standard navbar-right no-container" data-font="font_sgf6puuc4"><ul class="menu"><li id="menu-item-518" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-518"><a href="https://www.octoberwip.com/clients"><span>Clients</span></a></li>
+<li id="menu-item-262" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-262"><a href="https://www.octoberwip.com/about"><span>About</span></a></li>
+<li id="menu-item-313" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-313"><a href="http://www.octoberwip.com/contact"><span>Contact Us</span></a></li>
+</ul></nav>
+									<div class="hamburger navbar-right semplice-menu"><a class="open-menu menu-icon"><span></span></a></div>
+								</div>
+							</div>
+						</header>
+						
+				<div id="overlay-menu">
+					<div class="overlay-menu-inner" data-xl-width="12">
+						<nav class="overlay-nav" data-justify="left" data-align="align-middle" data-font="font_sgf6puuc4">
+							<ul class="container"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-518"><a href="https://www.octoberwip.com/clients"><span>Clients</span></a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-262"><a href="https://www.octoberwip.com/about"><span>About</span></a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-313"><a href="http://www.octoberwip.com/contact"><span>Contact Us</span></a></li>
+</ul>
+						</nav>
+					</div>
+				</div>
+			
+							
+			<div id="content-175" class="content-container active-content  hide-on-init">
+				<div class="transition-wrap">
+					<div class="sections">
+						
+					<section id="section_f095faf91" class="content-block" data-column-mode-sm="single" data-column-mode-xs="single" data-height="fullscreen" data-valign="center" data-justify="left" >
+						<div class="container"><div id="row_64c4dd3d1" class="row"><div id="column_2d9ddd25d" class="column" data-xl-width="12" data-lg-width="9" data-md-width="10" >
+					<div class="content-wrapper">
+						
+						
+				<div id="content_7d42275f7" class="column-content" data-module="text" >
+					<div class="is-content"><p style="font-size: 5rem; line-height: 7.222rem; text-align: center;" data-mce-style="font-size: 5rem; line-height: 7.222rem; text-align: center;" data-font-size-xl="5.000rem" data-line-height-xl="7.222rem" data-font-size-xs="2.500rem" data-line-height-xs="3.056rem" data-font-size-sm="3.333rem" data-line-height-sm="4.444rem" data-font-size-md="3.056rem" data-line-height-md="3.889rem" data-font-size-lg="3.333rem" data-line-height-lg="3.889rem"><span class="font_ssux2rouv" style="color: rgb(0, 0, 0); letter-spacing: 0rem;" data-mce-style="color: rgb(0, 0, 0); letter-spacing: 0rem;" data-letter-spacing-xl="0.000rem" data-letter-spacing-xs="-0.056rem" data-letter-spacing-lg="0.000rem">🤨<br>Something broke</span></p></div>
+				</div>
+			
+				<div id="content_f53f5ed21" class="column-content" data-module="button" >
+					
+				<div class="ce-button" data-align="center">
+					<div class="is-content " data-width="auto" data-effect="colorfade" data-icon-direction="right">
+						<a  data-font="font_ywr0egvk0" href="" target="_self" data-text-effect="none" data-text-align="center"><div data-content-for="xl"><div class="inner">← Back to Homepage</div></div></a>
+					</div>
+				</div>
+			
+				</div>
+			
+					</div>
+				</div></div></div>
+					</section>				
+				
+					<section id="section_2957ccec4" class="content-block" data-column-mode-sm="single" data-column-mode-xs="single" data-justify="center" data-valign="center" >
+						<div class="container"><div id="row_9baba18c3" class="row"><div id="column_c573413ce" class="column" data-xl-width="12" >
+					<div class="content-wrapper">
+						
+						
+				<div id="content_e790ed6fe" class="column-content" data-module="text" >
+					<div class="is-content"><p style="text-align: center; font-size: 1.111rem;" data-mce-style="text-align: center; font-size: 1.111rem;" data-font-size-xl="1.111rem"><span style="color: rgb(0, 0, 0);" data-mce-style="color: #000000;" class="font_ywr0egvk0">Join the OCTOBER® Newsletter</span></p></div>
+				</div>
+			
+				<div id="content_126dc80bb" class="column-content" data-module="text" >
+					<div class="is-content"><p style="text-align: center; font-size: 0.889rem;" data-mce-style="text-align: center; font-size: 0.889rem;" data-font-size-xl="0.889rem"><span style="color: rgb(170, 170, 170);" data-mce-style="color: #aaaaaa;" class="font_ywr0egvk0">No spam. We promise.</span></p></div>
+				</div>
+			
+				<div id="content_522bddb7d" class="column-content" data-module="mailchimp" >
+					
+				<div class="mailchimp-newsletter" data-alignment="center" data-fname="disabled" data-layout="horizontal">
+					<div class="mailchimp-inner is-content">
+						<form action="https://octoberwip.us5.list-manage.com/subscribe/post?u=976363c5c026937e7b7ecb15d&amp;id=f1dbe1ce77" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate">
+							
+							<input type="email" value="" name="EMAIL" id="mce-EMAIL" class="mailchimp-input font_hrgm61rbt" size="16" placeholder="Email address">
+							<button class="mailchimp-submit-button font_ywr0egvk0" type="submit"  value="Subscribe" name="subscribe" id="mc-embedded-subscribe">Subscribe →</button>
+						</form>
+					</div>
+				</div>
+			
+				</div>
+			
+					</div>
+				</div></div></div>
+					</section>				
+				
+					<section id="section_e0425f186" class="content-block" data-column-mode-sm="single" data-column-mode-xs="single" data-justify="left" data-xs-visibility="hide" data-sm-visibility="hide" data-height="dynamic" >
+						<div class="container"><div id="row_fe902019d" class="row"><div id="column_99e36a34e" class="column" data-xl-width="12" >
+					<div class="content-wrapper">
+						
+						
+				<div id="content_9f8a345b4" class="column-content" data-module="spacer" >
+					
+				<div class="spacer-container">
+					<div class="is-content">
+						<div class="spacer"><!-- horizontal spacer --></div>
+					</div>
+				</div>
+			
+				</div>
+			
+					</div>
+				</div></div><div id="row_1933d2561" class="row"><div id="column_376fc6bb2" class="column" data-xl-width="6" data-md-width="6" data-lg-width="6" data-valign="center" >
+					<div class="content-wrapper">
+						
+						
+				<div id="content_31f29142b" class="column-content avoid-clicks" data-module="image" >
+					<div class="ce-image" data-align="center"><img class="is-content"  src="https://octoberwip.com/wp-content/uploads/2021/06/October-Script.svg" alt="October-Script" caption="" data-width="original" data-scaling="no"></div>
+				</div>
+			
+				<div id="content_2c8d8faa5" class="column-content" data-module="text" >
+					<div class="is-content"><p style="text-align: left; line-height: 1.111rem;" data-mce-style="text-align: left; line-height: 1.111rem;" data-line-height-xl="1.111rem"><span class="font_hrgm61rbt" style="color: rgb(170, 170, 170);" data-mce-style="color: rgb(170, 170, 170);">OCTOBER® is an independent design company.</span></p></div>
+				</div>
+			
+					</div>
+				</div></div><div id="row_b623fc799" class="row"><div id="column_b7cd18383" class="column" data-xl-width="12" >
+					<div class="content-wrapper">
+						
+						
+				<div id="content_61684c59c" class="column-content" data-module="socialprofiles" >
+					
+				<div class="socialprofiles is-content" data-distributed="default" data-align="left">
+					<div class="inner">
+						<ul>
+							<li class="social-profile social-profile-instagram"><a href="https://www.instagram.com/octoberwip" target="_blank"><svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M7.5007 0C5.46381 0 5.20817 0.00890629 4.40818 0.045293C3.60973 0.0818555 3.06475 0.208242 2.58785 0.39375C2.09455 0.585293 1.67613 0.841523 1.25924 1.25859C0.842051 1.67543 0.585762 2.09391 0.393575 2.58703C0.207657 3.06404 0.0810936 3.6092 0.0451757 4.40736C0.00937488 5.20734 0 5.46316 0 7.50006C0 9.53695 0.00908207 9.79178 0.045293 10.5918C0.0820313 11.3903 0.208418 11.9353 0.39375 12.4121C0.585469 12.9054 0.841699 13.3239 1.25877 13.7408C1.67549 14.1579 2.09391 14.4148 2.58691 14.6064C3.0641 14.7918 3.60926 14.9183 4.40754 14.9548C5.20758 14.9912 5.46305 15.0001 7.49977 15.0001C9.53684 15.0001 9.79166 14.9912 10.5917 14.9548C11.3901 14.9183 11.9357 14.7918 12.413 14.6064C12.9061 14.4148 13.3239 14.1579 13.7406 13.7408C14.1578 13.3239 14.4141 12.9054 14.6062 12.4123C14.7906 11.9353 14.9172 11.3901 14.9547 10.5919C14.9906 9.79195 15 9.53695 15 7.50006C15 5.46316 14.9906 5.20752 14.9547 4.40754C14.9172 3.60908 14.7906 3.06404 14.6062 2.58721C14.4141 2.09391 14.1578 1.67543 13.7406 1.25859C13.3234 0.841406 12.9062 0.585117 12.4125 0.39375C11.9343 0.208242 11.389 0.0818555 10.5906 0.045293C9.79055 0.00890629 9.5359 0 7.49836 0H7.5007ZM7.25057 1.35147H7.25074L7.5007 1.35152C9.5032 1.35152 9.74057 1.35873 10.5313 1.39465C11.2626 1.42811 11.6595 1.55027 11.9239 1.65293C12.2739 1.78887 12.5234 1.95141 12.7857 2.21391C13.0482 2.47641 13.2108 2.72643 13.347 3.07641C13.4497 3.34049 13.572 3.73734 13.6053 4.46859C13.6412 5.25926 13.6491 5.49674 13.6491 7.49836C13.6491 9.49992 13.6412 9.7374 13.6053 10.5281C13.5718 11.2593 13.4497 11.6562 13.347 11.9203C13.2111 12.2702 13.0482 12.5195 12.7857 12.7818C12.5232 13.0443 12.274 13.2069 11.9239 13.3428C11.6598 13.4459 11.2626 13.5678 10.5313 13.6012C9.74074 13.6372 9.5032 13.645 7.5007 13.645C5.49803 13.645 5.26066 13.6372 4.47006 13.6012C3.73881 13.5674 3.3419 13.4453 3.0774 13.3426C2.72736 13.2067 2.47734 13.0441 2.21484 12.7816C1.95234 12.5191 1.78986 12.2698 1.65363 11.9196C1.55098 11.6556 1.42863 11.2587 1.39535 10.5274C1.35938 9.73682 1.35223 9.49928 1.35223 7.49648C1.35223 5.49363 1.35938 5.25738 1.39535 4.46672C1.42875 3.73547 1.55098 3.33861 1.65363 3.07424C1.78957 2.7242 1.95234 2.47424 2.21484 2.21174C2.47734 1.94924 2.72736 1.7867 3.0774 1.65047C3.34178 1.54734 3.73881 1.42547 4.47006 1.39184C5.16193 1.36061 5.43006 1.35123 6.82787 1.34965V1.35152C6.95848 1.35135 7.09899 1.35141 7.25057 1.35147ZM10.6042 3.49658C10.6042 2.99953 11.0073 2.59688 11.5042 2.59688V2.59658C12.0011 2.59658 12.4042 2.99971 12.4042 3.49658C12.4042 3.99346 12.0011 4.39658 11.5042 4.39658C11.0073 4.39658 10.6042 3.99346 10.6042 3.49658ZM7.50053 3.64846C5.37357 3.64852 3.6491 5.37305 3.6491 7.50006C3.6491 9.62713 5.37363 11.3509 7.5007 11.3509C9.62777 11.3509 11.3517 9.62713 11.3517 7.50006C11.3517 5.37299 9.6276 3.64846 7.50053 3.64846ZM10.0007 7.50006C10.0007 6.11924 8.88135 5.00004 7.5007 5.00004C6.11988 5.00004 5.00068 6.11924 5.00068 7.50006C5.00068 8.8807 6.11988 10.0001 7.5007 10.0001C8.88135 10.0001 10.0007 8.8807 10.0007 7.50006Z" fill="white"/>
+</svg>
+</a></li><li class="social-profile social-profile-twitter"><a href="https://twitter.com/octoberwip" target="_blank"><svg width="16" height="13" viewBox="0 0 16 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M15.0693 1.44569C14.5052 1.69499 13.907 1.85865 13.2945 1.93125C13.9392 1.54578 14.4213 0.938635 14.6507 0.223399C14.044 0.58365 13.38 0.837089 12.6875 0.972678C12.2631 0.521932 11.7131 0.208931 11.1088 0.0741669C10.5045 -0.0605969 9.87366 -0.010921 9.2979 0.216768C8.72215 0.444456 8.22796 0.83968 7.87928 1.35131C7.5306 1.86294 7.34347 2.46742 7.3421 3.08657C7.34121 3.32327 7.3679 3.55928 7.42164 3.7898C6.19227 3.72819 4.98954 3.40908 3.89134 2.85313C2.79313 2.29717 1.82393 1.51677 1.04648 0.562458C0.652065 1.24347 0.531648 2.04908 0.709687 2.81565C0.887726 3.58223 1.35087 4.2523 2.00506 4.68977C1.51369 4.6745 1.03302 4.5425 0.602773 4.30467V4.34234C0.603192 5.05637 0.850606 5.74826 1.30304 6.30064C1.75548 6.85302 2.38508 7.23188 3.08502 7.37295C2.8192 7.4464 2.54455 7.48302 2.26877 7.48178C2.06933 7.48306 1.87025 7.46483 1.67437 7.42737C1.87108 8.0422 2.25545 8.57996 2.77349 8.96511C3.29154 9.35027 3.91722 9.56346 4.56265 9.57474C3.2687 10.5837 1.63003 11.0438 0 10.8556C1.41347 11.7638 3.05836 12.2463 4.73846 12.2454C10.4271 12.2454 13.5289 7.5362 13.5289 3.45493C13.5289 3.32098 13.5289 3.18703 13.5289 3.03634C14.1325 2.60156 14.6541 2.06297 15.0693 1.44569Z" fill="white"/>
+</svg>
+</a></li><li class="social-profile social-profile-linkedin"><a href="https://www.linkedin.com/company/octoberwip/" target="_blank"><svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M2.64334 11.0341H0.310005V3.54076H2.64334V11.0341ZM1.41334 2.60409H1.39667C1.218 2.61742 1.0385 2.59366 0.869449 2.53432C0.700393 2.47498 0.545429 2.38134 0.414282 2.25927C0.283134 2.1372 0.178635 1.98934 0.107344 1.82497C0.036053 1.66059 -0.000491084 1.48326 4.98345e-06 1.30409C4.98345e-06 0.564092 0.563338 0.00409261 1.43 0.00409261C1.60953 -0.0101492 1.79005 0.0128711 1.96025 0.0717087C2.13046 0.130546 2.28666 0.223931 2.41906 0.346001C2.55146 0.468071 2.6572 0.616192 2.72963 0.781066C2.80207 0.94594 2.83965 1.12401 2.84 1.30409C2.84 2.03076 2.29 2.60409 1.41334 2.60409ZM12 11.0341H9.33333V7.15742C9.33333 6.15742 8.92 5.45076 8 5.45076C7.71925 5.45073 7.44565 5.53934 7.2182 5.70393C6.99076 5.86853 6.82107 6.10073 6.73334 6.36742C6.67759 6.56563 6.65839 6.77234 6.67667 6.97742V11.0341H4.07C4.07 11.0341 4.10334 4.16742 4.07 3.54409H6.69667V4.73076C6.85334 4.21742 7.69667 3.48409 9.03 3.48409C10.6967 3.48409 12 4.56076 12 6.88076V11.0341Z" fill="white"/>
+</svg>
+</a></li>
+						</ul>
+					</div>
+				</div>
+			
+				</div>
+			
+					</div>
+				</div></div><div id="row_8c952bb17" class="row"><div id="column_066b3b355" class="column" data-xl-width="6" data-valign="center" >
+					<div class="content-wrapper">
+						
+						
+				<div id="content_ce407cf38" class="column-content avoid-clicks" data-module="image" >
+					<div class="ce-image" data-align="left"><a class="image-link" href="" target="_self"><img class="is-content"  src="https://octoberwip.com/wp-content/uploads/2021/05/Star.svg" alt="October® WIP Logo" caption="October® WIP Logo" data-width="original" data-scaling="no"></a></div>
+				</div>
+			
+					</div>
+				</div><div id="column_2918fd8b5" class="column" data-xl-width="6" >
+					<div class="content-wrapper">
+						
+						
+				<div id="content_40411cc53" class="column-content" data-module="text" >
+					<div class="is-content"><p style="text-align: right;" data-mce-style="text-align: right;"><span class="font_hrgm61rbt" style="color: rgb(170, 170, 170);" data-mce-style="color: rgb(170, 170, 170);">©2023 OCTOBER®</span></p></div>
+				</div>
+			
+					</div>
+				</div></div><div id="row_ca8058f23" class="row"><div id="column_9944b3d54" class="column" data-xl-width="12" >
+					<div class="content-wrapper">
+						
+						
+				<div id="content_203511888" class="column-content" data-module="spacer" >
+					
+				<div class="spacer-container">
+					<div class="is-content">
+						<div class="spacer"><!-- horizontal spacer --></div>
+					</div>
+				</div>
+			
+				</div>
+			
+					</div>
+				</div></div></div>
+					</section>				
+				
+					<section id="section_bc697181a" class="content-block footer-mobile" data-column-mode-sm="single" data-column-mode-xs="single" data-justify="center" data-xs-visibility="visbile" data-sm-visibility="hide" data-height="dynamic" >
+						<div class="container"><div id="row_24c97434d" class="row"><div id="column_0e743d25b" class="column" data-xl-width="12" >
+					<div class="content-wrapper">
+						
+						
+				<div id="content_1db853871" class="column-content" data-module="spacer" >
+					
+				<div class="spacer-container">
+					<div class="is-content">
+						<div class="spacer"><!-- horizontal spacer --></div>
+					</div>
+				</div>
+			
+				</div>
+			
+					</div>
+				</div></div><div id="row_22871d172" class="row"><div id="column_5f36b0afc" class="column" data-xl-width="5" data-md-width="6" data-lg-width="6" data-valign="center" >
+					<div class="content-wrapper">
+						
+						
+				<div id="content_78c975eda" class="column-content avoid-clicks" data-module="image" >
+					<div class="ce-image" data-align="center"><img class="is-content"  src="https://octoberwip.com/wp-content/uploads/2021/06/October-Script.svg" alt="October-Script" caption="" data-width="original" data-scaling="no"></div>
+				</div>
+			
+				<div id="content_f435bd8ef" class="column-content" data-module="text" >
+					<div class="is-content"><p style="line-height: 1.111rem; text-align: center; font-size: 1rem;" data-mce-style="line-height: 1.111rem; text-align: center; font-size: 1rem;" data-line-height-xl="1.111rem" data-font-size-xl="1.000rem"><span class="font_hrgm61rbt" style="color: rgb(170, 170, 170);" data-mce-style="color: rgb(170, 170, 170);">OCTOBER® is an independent design company.</span></p></div>
+				</div>
+			
+					</div>
+				</div></div><div id="row_23418da2a" class="row"><div id="column_8dab3a5e9" class="column" data-xl-width="5" >
+					<div class="content-wrapper">
+						
+						
+				<div id="content_b80a28223" class="column-content" data-module="socialprofiles" >
+					
+				<div class="socialprofiles is-content" data-distributed="default" data-align="center">
+					<div class="inner">
+						<ul>
+							<li class="social-profile social-profile-instagram"><a href="https://www.instagram.com/octoberwip" target="_blank"><svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M7.5007 0C5.46381 0 5.20817 0.00890629 4.40818 0.045293C3.60973 0.0818555 3.06475 0.208242 2.58785 0.39375C2.09455 0.585293 1.67613 0.841523 1.25924 1.25859C0.842051 1.67543 0.585762 2.09391 0.393575 2.58703C0.207657 3.06404 0.0810936 3.6092 0.0451757 4.40736C0.00937488 5.20734 0 5.46316 0 7.50006C0 9.53695 0.00908207 9.79178 0.045293 10.5918C0.0820313 11.3903 0.208418 11.9353 0.39375 12.4121C0.585469 12.9054 0.841699 13.3239 1.25877 13.7408C1.67549 14.1579 2.09391 14.4148 2.58691 14.6064C3.0641 14.7918 3.60926 14.9183 4.40754 14.9548C5.20758 14.9912 5.46305 15.0001 7.49977 15.0001C9.53684 15.0001 9.79166 14.9912 10.5917 14.9548C11.3901 14.9183 11.9357 14.7918 12.413 14.6064C12.9061 14.4148 13.3239 14.1579 13.7406 13.7408C14.1578 13.3239 14.4141 12.9054 14.6062 12.4123C14.7906 11.9353 14.9172 11.3901 14.9547 10.5919C14.9906 9.79195 15 9.53695 15 7.50006C15 5.46316 14.9906 5.20752 14.9547 4.40754C14.9172 3.60908 14.7906 3.06404 14.6062 2.58721C14.4141 2.09391 14.1578 1.67543 13.7406 1.25859C13.3234 0.841406 12.9062 0.585117 12.4125 0.39375C11.9343 0.208242 11.389 0.0818555 10.5906 0.045293C9.79055 0.00890629 9.5359 0 7.49836 0H7.5007ZM7.25057 1.35147H7.25074L7.5007 1.35152C9.5032 1.35152 9.74057 1.35873 10.5313 1.39465C11.2626 1.42811 11.6595 1.55027 11.9239 1.65293C12.2739 1.78887 12.5234 1.95141 12.7857 2.21391C13.0482 2.47641 13.2108 2.72643 13.347 3.07641C13.4497 3.34049 13.572 3.73734 13.6053 4.46859C13.6412 5.25926 13.6491 5.49674 13.6491 7.49836C13.6491 9.49992 13.6412 9.7374 13.6053 10.5281C13.5718 11.2593 13.4497 11.6562 13.347 11.9203C13.2111 12.2702 13.0482 12.5195 12.7857 12.7818C12.5232 13.0443 12.274 13.2069 11.9239 13.3428C11.6598 13.4459 11.2626 13.5678 10.5313 13.6012C9.74074 13.6372 9.5032 13.645 7.5007 13.645C5.49803 13.645 5.26066 13.6372 4.47006 13.6012C3.73881 13.5674 3.3419 13.4453 3.0774 13.3426C2.72736 13.2067 2.47734 13.0441 2.21484 12.7816C1.95234 12.5191 1.78986 12.2698 1.65363 11.9196C1.55098 11.6556 1.42863 11.2587 1.39535 10.5274C1.35938 9.73682 1.35223 9.49928 1.35223 7.49648C1.35223 5.49363 1.35938 5.25738 1.39535 4.46672C1.42875 3.73547 1.55098 3.33861 1.65363 3.07424C1.78957 2.7242 1.95234 2.47424 2.21484 2.21174C2.47734 1.94924 2.72736 1.7867 3.0774 1.65047C3.34178 1.54734 3.73881 1.42547 4.47006 1.39184C5.16193 1.36061 5.43006 1.35123 6.82787 1.34965V1.35152C6.95848 1.35135 7.09899 1.35141 7.25057 1.35147ZM10.6042 3.49658C10.6042 2.99953 11.0073 2.59688 11.5042 2.59688V2.59658C12.0011 2.59658 12.4042 2.99971 12.4042 3.49658C12.4042 3.99346 12.0011 4.39658 11.5042 4.39658C11.0073 4.39658 10.6042 3.99346 10.6042 3.49658ZM7.50053 3.64846C5.37357 3.64852 3.6491 5.37305 3.6491 7.50006C3.6491 9.62713 5.37363 11.3509 7.5007 11.3509C9.62777 11.3509 11.3517 9.62713 11.3517 7.50006C11.3517 5.37299 9.6276 3.64846 7.50053 3.64846ZM10.0007 7.50006C10.0007 6.11924 8.88135 5.00004 7.5007 5.00004C6.11988 5.00004 5.00068 6.11924 5.00068 7.50006C5.00068 8.8807 6.11988 10.0001 7.5007 10.0001C8.88135 10.0001 10.0007 8.8807 10.0007 7.50006Z" fill="white"/>
+</svg>
+</a></li><li class="social-profile social-profile-twitter"><a href="https://twitter.com/octoberwip" target="_blank"><svg width="16" height="13" viewBox="0 0 16 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M15.0693 1.44569C14.5052 1.69499 13.907 1.85865 13.2945 1.93125C13.9392 1.54578 14.4213 0.938635 14.6507 0.223399C14.044 0.58365 13.38 0.837089 12.6875 0.972678C12.2631 0.521932 11.7131 0.208931 11.1088 0.0741669C10.5045 -0.0605969 9.87366 -0.010921 9.2979 0.216768C8.72215 0.444456 8.22796 0.83968 7.87928 1.35131C7.5306 1.86294 7.34347 2.46742 7.3421 3.08657C7.34121 3.32327 7.3679 3.55928 7.42164 3.7898C6.19227 3.72819 4.98954 3.40908 3.89134 2.85313C2.79313 2.29717 1.82393 1.51677 1.04648 0.562458C0.652065 1.24347 0.531648 2.04908 0.709687 2.81565C0.887726 3.58223 1.35087 4.2523 2.00506 4.68977C1.51369 4.6745 1.03302 4.5425 0.602773 4.30467V4.34234C0.603192 5.05637 0.850606 5.74826 1.30304 6.30064C1.75548 6.85302 2.38508 7.23188 3.08502 7.37295C2.8192 7.4464 2.54455 7.48302 2.26877 7.48178C2.06933 7.48306 1.87025 7.46483 1.67437 7.42737C1.87108 8.0422 2.25545 8.57996 2.77349 8.96511C3.29154 9.35027 3.91722 9.56346 4.56265 9.57474C3.2687 10.5837 1.63003 11.0438 0 10.8556C1.41347 11.7638 3.05836 12.2463 4.73846 12.2454C10.4271 12.2454 13.5289 7.5362 13.5289 3.45493C13.5289 3.32098 13.5289 3.18703 13.5289 3.03634C14.1325 2.60156 14.6541 2.06297 15.0693 1.44569Z" fill="white"/>
+</svg>
+</a></li><li class="social-profile social-profile-linkedin"><a href="https://www.linkedin.com/company/octoberwip/" target="_blank"><svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M2.64334 11.0341H0.310005V3.54076H2.64334V11.0341ZM1.41334 2.60409H1.39667C1.218 2.61742 1.0385 2.59366 0.869449 2.53432C0.700393 2.47498 0.545429 2.38134 0.414282 2.25927C0.283134 2.1372 0.178635 1.98934 0.107344 1.82497C0.036053 1.66059 -0.000491084 1.48326 4.98345e-06 1.30409C4.98345e-06 0.564092 0.563338 0.00409261 1.43 0.00409261C1.60953 -0.0101492 1.79005 0.0128711 1.96025 0.0717087C2.13046 0.130546 2.28666 0.223931 2.41906 0.346001C2.55146 0.468071 2.6572 0.616192 2.72963 0.781066C2.80207 0.94594 2.83965 1.12401 2.84 1.30409C2.84 2.03076 2.29 2.60409 1.41334 2.60409ZM12 11.0341H9.33333V7.15742C9.33333 6.15742 8.92 5.45076 8 5.45076C7.71925 5.45073 7.44565 5.53934 7.2182 5.70393C6.99076 5.86853 6.82107 6.10073 6.73334 6.36742C6.67759 6.56563 6.65839 6.77234 6.67667 6.97742V11.0341H4.07C4.07 11.0341 4.10334 4.16742 4.07 3.54409H6.69667V4.73076C6.85334 4.21742 7.69667 3.48409 9.03 3.48409C10.6967 3.48409 12 4.56076 12 6.88076V11.0341Z" fill="white"/>
+</svg>
+</a></li>
+						</ul>
+					</div>
+				</div>
+			
+				</div>
+			
+					</div>
+				</div></div><div id="row_561618ad5" class="row"><div id="column_0f69c570a" class="column" data-xl-width="5" >
+					<div class="content-wrapper">
+						
+						
+				<div id="content_2f7d6aac9" class="column-content avoid-clicks" data-module="image" >
+					<div class="ce-image" data-align="center"><a class="image-link" href="" target="_self"><img class="is-content"  src="https://octoberwip.com/wp-content/uploads/2021/05/Star.svg" alt="October® WIP Logo" caption="October® WIP Logo" data-width="original" data-scaling="no"></a></div>
+				</div>
+			
+					</div>
+				</div></div><div id="row_0b91b5e63" class="row"><div id="column_4df21a605" class="column" data-xl-width="5" >
+					<div class="content-wrapper">
+						
+						
+				<div id="content_7783ea442" class="column-content" data-module="text" >
+					<div class="is-content"><p style="text-align: center;" data-mce-style="text-align: center;"><span class="font_hrgm61rbt" style="color: rgb(170, 170, 170);" data-mce-style="color: rgb(170, 170, 170);">©2023 OCTOBER®</span></p></div>
+				</div>
+			
+					</div>
+				</div></div><div id="row_d061477cd" class="row"><div id="column_3cbcb7710" class="column" data-xl-width="5" >
+					<div class="content-wrapper">
+						
+						
+				<div id="content_380b09995" class="column-content" data-module="spacer" >
+					
+				<div class="spacer-container">
+					<div class="is-content">
+						<div class="spacer"><!-- horizontal spacer --></div>
+					</div>
+				</div>
+			
+				</div>
+			
+					</div>
+				</div></div></div>
+					</section>				
+				
+					</div>
+				</div>
+			</div>
+		</div>
+	<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+	<div class="pswp__bg"></div>
+	<div class="pswp__scroll-wrap">
+		<div class="pswp__container">
+			<div class="pswp__item"></div>
+			<div class="pswp__item"></div>
+			<div class="pswp__item"></div>
+		</div>
+		<div class="pswp__ui pswp__ui--hidden">
+			<div class="pswp__top-bar">
+				<div class="pswp__counter"></div>
+				<button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+				<button class="pswp__button pswp__button--share" title="Share"></button>
+				<button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+				<button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+				<div class="pswp__preloader">
+					<div class="pswp__preloader__icn">
+					  <div class="pswp__preloader__cut">
+						<div class="pswp__preloader__donut"></div>
+					  </div>
+					</div>
+				</div>
+			</div>
+			<div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+				<div class="pswp__share-tooltip"></div> 
+			</div>
+			<button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+			</button>
+			<button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+			</button>
+			<div class="pswp__caption">
+				<div class="pswp__caption__center"></div>
+			</div>
+		</div>
+	</div>
+</div>
+		<div class="back-to-top" data-arrow-align="right">
+			<a class="semplice-event" data-event-type="helper" data-event="scrollToTop"><svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="53px" height="20px" viewBox="0 0 53 20" enable-background="new 0 0 53 20" xml:space="preserve">
+<g id="Ebene_3">
+</g>
+<g>
+	<polygon points="43.886,16.221 42.697,17.687 26.5,4.731 10.303,17.688 9.114,16.221 26.5,2.312 	"/>
+</g>
+</svg>
+</a>
+		</div>
+	<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"\/*"},{"not":{"href_matches":["\/wp-*.php","\/wp-admin\/*","\/wp-content\/uploads\/*","\/wp-content\/*","\/wp-content\/plugins\/*","\/wp-content\/themes\/semplice6\/*","\/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+<script type="text/javascript" id="rocket-browser-checker-js-after">
+/* <![CDATA[ */
+"use strict";var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||!1,descriptor.configurable=!0,"value"in descriptor&&(descriptor.writable=!0),Object.defineProperty(target,descriptor.key,descriptor)}}return function(Constructor,protoProps,staticProps){return protoProps&&defineProperties(Constructor.prototype,protoProps),staticProps&&defineProperties(Constructor,staticProps),Constructor}}();function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor))throw new TypeError("Cannot call a class as a function")}var RocketBrowserCompatibilityChecker=function(){function RocketBrowserCompatibilityChecker(options){_classCallCheck(this,RocketBrowserCompatibilityChecker),this.passiveSupported=!1,this._checkPassiveOption(this),this.options=!!this.passiveSupported&&options}return _createClass(RocketBrowserCompatibilityChecker,[{key:"_checkPassiveOption",value:function(self){try{var options={get passive(){return!(self.passiveSupported=!0)}};window.addEventListener("test",null,options),window.removeEventListener("test",null,options)}catch(err){self.passiveSupported=!1}}},{key:"initRequestIdleCallback",value:function(){!1 in window&&(window.requestIdleCallback=function(cb){var start=Date.now();return setTimeout(function(){cb({didTimeout:!1,timeRemaining:function(){return Math.max(0,50-(Date.now()-start))}})},1)}),!1 in window&&(window.cancelIdleCallback=function(id){return clearTimeout(id)})}},{key:"isDataSaverModeOn",value:function(){return"connection"in navigator&&!0===navigator.connection.saveData}},{key:"supportsLinkPrefetch",value:function(){var elem=document.createElement("link");return elem.relList&&elem.relList.supports&&elem.relList.supports("prefetch")&&window.IntersectionObserver&&"isIntersecting"in IntersectionObserverEntry.prototype}},{key:"isSlowConnection",value:function(){return"connection"in navigator&&"effectiveType"in navigator.connection&&("2g"===navigator.connection.effectiveType||"slow-2g"===navigator.connection.effectiveType)}}]),RocketBrowserCompatibilityChecker}();
+/* ]]> */
+</script>
+<script type="text/javascript" id="rocket-preload-links-js-extra">
+/* <![CDATA[ */
+var RocketPreloadLinksConfig = {"excludeUris":"\/(?:.+\/)?feed(?:\/(?:.+\/?)?)?$|\/(?:.+\/)?embed\/|\/(index\\.php\/)?(.*)wp\\-json(\/.*|$)|\/refer\/|\/go\/|\/recommend\/|\/recommends\/","usesTrailingSlash":"","imageExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|pdf|doc|docx|xls|xlsx|php","fileExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|pdf|doc|docx|xls|xlsx|php|html|htm","siteUrl":"https:\/\/octoberwip.com","onHoverDelay":"100","rateThrottle":"3"};
+/* ]]> */
+</script>
+<script type="text/javascript" id="rocket-preload-links-js-after">
+/* <![CDATA[ */
+(function() {
+"use strict";var r="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e},e=function(){function i(e,t){for(var n=0;n<t.length;n++){var i=t[n];i.enumerable=i.enumerable||!1,i.configurable=!0,"value"in i&&(i.writable=!0),Object.defineProperty(e,i.key,i)}}return function(e,t,n){return t&&i(e.prototype,t),n&&i(e,n),e}}();function i(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}var t=function(){function n(e,t){i(this,n),this.browser=e,this.config=t,this.options=this.browser.options,this.prefetched=new Set,this.eventTime=null,this.threshold=1111,this.numOnHover=0}return e(n,[{key:"init",value:function(){!this.browser.supportsLinkPrefetch()||this.browser.isDataSaverModeOn()||this.browser.isSlowConnection()||(this.regex={excludeUris:RegExp(this.config.excludeUris,"i"),images:RegExp(".("+this.config.imageExt+")$","i"),fileExt:RegExp(".("+this.config.fileExt+")$","i")},this._initListeners(this))}},{key:"_initListeners",value:function(e){-1<this.config.onHoverDelay&&document.addEventListener("mouseover",e.listener.bind(e),e.listenerOptions),document.addEventListener("mousedown",e.listener.bind(e),e.listenerOptions),document.addEventListener("touchstart",e.listener.bind(e),e.listenerOptions)}},{key:"listener",value:function(e){var t=e.target.closest("a"),n=this._prepareUrl(t);if(null!==n)switch(e.type){case"mousedown":case"touchstart":this._addPrefetchLink(n);break;case"mouseover":this._earlyPrefetch(t,n,"mouseout")}}},{key:"_earlyPrefetch",value:function(t,e,n){var i=this,r=setTimeout(function(){if(r=null,0===i.numOnHover)setTimeout(function(){return i.numOnHover=0},1e3);else if(i.numOnHover>i.config.rateThrottle)return;i.numOnHover++,i._addPrefetchLink(e)},this.config.onHoverDelay);t.addEventListener(n,function e(){t.removeEventListener(n,e,{passive:!0}),null!==r&&(clearTimeout(r),r=null)},{passive:!0})}},{key:"_addPrefetchLink",value:function(i){return this.prefetched.add(i.href),new Promise(function(e,t){var n=document.createElement("link");n.rel="prefetch",n.href=i.href,n.onload=e,n.onerror=t,document.head.appendChild(n)}).catch(function(){})}},{key:"_prepareUrl",value:function(e){if(null===e||"object"!==(void 0===e?"undefined":r(e))||!1 in e||-1===["http:","https:"].indexOf(e.protocol))return null;var t=e.href.substring(0,this.config.siteUrl.length),n=this._getPathname(e.href,t),i={original:e.href,protocol:e.protocol,origin:t,pathname:n,href:t+n};return this._isLinkOk(i)?i:null}},{key:"_getPathname",value:function(e,t){var n=t?e.substring(this.config.siteUrl.length):e;return n.startsWith("/")||(n="/"+n),this._shouldAddTrailingSlash(n)?n+"/":n}},{key:"_shouldAddTrailingSlash",value:function(e){return this.config.usesTrailingSlash&&!e.endsWith("/")&&!this.regex.fileExt.test(e)}},{key:"_isLinkOk",value:function(e){return null!==e&&"object"===(void 0===e?"undefined":r(e))&&(!this.prefetched.has(e.href)&&e.origin===this.config.siteUrl&&-1===e.href.indexOf("?")&&-1===e.href.indexOf("#")&&!this.regex.excludeUris.test(e.href)&&!this.regex.images.test(e.href))}}],[{key:"run",value:function(){"undefined"!=typeof RocketPreloadLinksConfig&&new n(new RocketBrowserCompatibilityChecker({capture:!0,passive:!0}),RocketPreloadLinksConfig).init()}}]),n}();t.run();
+}());
+/* ]]> */
+</script>
+<script   data-wpacu-to-be-preloaded-basic='1' type="text/javascript" src="https://octoberwip.com/wp-content/themes/semplice6/assets/js/shared.scripts.min.js?ver=6.2.3" id="semplice-shared-scripts-js"></script>
+<script   type="text/javascript" src="https://octoberwip.com/wp-content/themes/semplice6/assets/js/frontend.scripts.min.js?ver=6.2.3" id="semplice-frontend-scripts-js"></script>
+<script   type="text/javascript" id="mediaelement-core-js-before">
+/* <![CDATA[ */
+var mejsL10n = {"language":"en","strings":{"mejs.download-file":"Download File","mejs.install-flash":"You are using a browser that does not have Flash player enabled or installed. Please turn on your Flash player plugin or download the latest version from https:\/\/get.adobe.com\/flashplayer\/","mejs.fullscreen":"Fullscreen","mejs.play":"Play","mejs.pause":"Pause","mejs.time-slider":"Time Slider","mejs.time-help-text":"Use Left\/Right Arrow keys to advance one second, Up\/Down arrows to advance ten seconds.","mejs.live-broadcast":"Live Broadcast","mejs.volume-help-text":"Use Up\/Down Arrow keys to increase or decrease volume.","mejs.unmute":"Unmute","mejs.mute":"Mute","mejs.volume-slider":"Volume Slider","mejs.video-player":"Video Player","mejs.audio-player":"Audio Player","mejs.captions-subtitles":"Captions\/Subtitles","mejs.captions-chapters":"Chapters","mejs.none":"None","mejs.afrikaans":"Afrikaans","mejs.albanian":"Albanian","mejs.arabic":"Arabic","mejs.belarusian":"Belarusian","mejs.bulgarian":"Bulgarian","mejs.catalan":"Catalan","mejs.chinese":"Chinese","mejs.chinese-simplified":"Chinese (Simplified)","mejs.chinese-traditional":"Chinese (Traditional)","mejs.croatian":"Croatian","mejs.czech":"Czech","mejs.danish":"Danish","mejs.dutch":"Dutch","mejs.english":"English","mejs.estonian":"Estonian","mejs.filipino":"Filipino","mejs.finnish":"Finnish","mejs.french":"French","mejs.galician":"Galician","mejs.german":"German","mejs.greek":"Greek","mejs.haitian-creole":"Haitian Creole","mejs.hebrew":"Hebrew","mejs.hindi":"Hindi","mejs.hungarian":"Hungarian","mejs.icelandic":"Icelandic","mejs.indonesian":"Indonesian","mejs.irish":"Irish","mejs.italian":"Italian","mejs.japanese":"Japanese","mejs.korean":"Korean","mejs.latvian":"Latvian","mejs.lithuanian":"Lithuanian","mejs.macedonian":"Macedonian","mejs.malay":"Malay","mejs.maltese":"Maltese","mejs.norwegian":"Norwegian","mejs.persian":"Persian","mejs.polish":"Polish","mejs.portuguese":"Portuguese","mejs.romanian":"Romanian","mejs.russian":"Russian","mejs.serbian":"Serbian","mejs.slovak":"Slovak","mejs.slovenian":"Slovenian","mejs.spanish":"Spanish","mejs.swahili":"Swahili","mejs.swedish":"Swedish","mejs.tagalog":"Tagalog","mejs.thai":"Thai","mejs.turkish":"Turkish","mejs.ukrainian":"Ukrainian","mejs.vietnamese":"Vietnamese","mejs.welsh":"Welsh","mejs.yiddish":"Yiddish"}};
+/* ]]> */
+</script>
+<script   type="text/javascript" src="https://octoberwip.com/wp-includes/js/mediaelement/mediaelement-and-player.min.js?ver=4.2.17" id="mediaelement-core-js"></script>
+<script   type="text/javascript" src="https://octoberwip.com/wp-includes/js/mediaelement/mediaelement-migrate.min.js?ver=6.8.3" id="mediaelement-migrate-js"></script>
+<script type="text/javascript" id="mediaelement-js-extra">
+/* <![CDATA[ */
+var _wpmejsSettings = {"pluginPath":"\/wp-includes\/js\/mediaelement\/","classPrefix":"mejs-","stretching":"responsive","audioShortcodeLibrary":"mediaelement","videoShortcodeLibrary":"mediaelement"};
+/* ]]> */
+</script>
+<script type="text/javascript" id="semplice-frontend-js-js-extra">
+/* <![CDATA[ */
+var semplice = {"default_api_url":"https:\/\/octoberwip.com\/wp-json","semplice_api_url":"https:\/\/octoberwip.com\/wp-json\/semplice\/v1\/frontend","template_dir":"https:\/\/octoberwip.com\/wp-content\/themes\/semplice6","category_base":"\/category\/","tag_base":"\/tag\/","nonce":"93e7a4228a","frontend_mode":"static","static_transitions":"enabled","site_name":"OCTOBER\u00ae","base_url":"https:\/\/octoberwip.com","frontpage_id":"427","blog_home":"https:\/\/octoberwip.com\/blog","sr_status":"disabled","blog_sr_status":"enabled","is_preview":"","password_form":"\r\n<div class=\"post-password-form post-password-form-dark\">\r\n\t<div class=\"inner\">\r\n\t\t<form action=\"https:\/\/octoberwip.com\/wp-login.php?action=postpass\" method=\"post\">\r\n\t\t\t<div class=\"password-lock\"><svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"35\" height=\"52\" viewBox=\"0 0 35 52\">\r\n  <path id=\"Form_1\" data-name=\"Form 1\" d=\"M31.3,25.028H27.056a0.755,0.755,0,0,1-.752-0.757V14.654a8.8,8.8,0,1,0-17.608,0v9.616a0.755,0.755,0,0,1-.752.757H3.7a0.755,0.755,0,0,1-.752-0.757V14.654a14.556,14.556,0,1,1,29.111,0v9.616A0.755,0.755,0,0,1,31.3,25.028Zm-3.495-1.514h2.743V14.654a13.051,13.051,0,1,0-26.1,0v8.859H7.192V14.654a10.309,10.309,0,1,1,20.617,0v8.859Zm4.43,28.475H2.761A2.77,2.77,0,0,1,0,49.213V25.28a1.763,1.763,0,0,1,1.755-1.766H33.242A1.763,1.763,0,0,1,35,25.28V49.213A2.77,2.77,0,0,1,32.239,51.988ZM1.758,25.028a0.252,0.252,0,0,0-.251.252V49.213a1.259,1.259,0,0,0,1.254,1.262H32.239a1.259,1.259,0,0,0,1.254-1.262V25.28a0.252,0.252,0,0,0-.251-0.252H1.758ZM20.849,43h-6.7a0.75,0.75,0,0,1-.61-0.314,0.763,0.763,0,0,1-.1-0.682l1.471-4.44a4.1,4.1,0,1,1,5.184,0L21.563,42a0.763,0.763,0,0,1-.1.682A0.75,0.75,0,0,1,20.849,43ZM15.2,41.487H19.8l-1.319-3.979a0.76,0.76,0,0,1,.33-0.891,2.6,2.6,0,1,0-2.633,0,0.76,0.76,0,0,1,.33.891Z\"\/>\r\n<\/svg>\r\n<\/div>\r\n\t\t\t<p class=\"title\">This content is protected.<\/p>\r\n\t\t\t<p class=\"subtitle\">To view, please enter the password.<\/p>\r\n\t\t\t<div class=\"input-fields\">\r\n\t\t\t\t<input name=\"post_password\" class=\"post-password-input\" type=\"password\" size=\"20\" maxlength=\"20\" placeholder=\"Enter password\" \/><input type=\"submit\" class=\"post-password-submit\" name=\"Submit\" value=\"Submit\" \/>\t\t\t<\/div>\r\n\t\t<\/form>\r\n\t<\/div>\r\n<\/div>","portfolio_order":[254,365,406],"exclusive_nav":"disabled","customize":{"cursor":{}},"gallery":{"prev":"<svg version=\"1.1\" id=\"Ebene_1\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" x=\"0px\" y=\"0px\"\r\n\twidth=\"18px\" height=\"40px\"  viewBox=\"0 0 18 40\" enable-background=\"new 0 0 18 40\" xml:space=\"preserve\">\r\n<g id=\"Ebene_2\">\r\n\t<g>\r\n\t\t<polygon points=\"16.3,40 0.3,20 16.3,0 17.7,1 2.5,20 17.7,39 \t\t\"\/>\r\n\t<\/g>\r\n<\/g>\r\n<\/svg>\r\n","next":"<svg version=\"1.1\" id=\"Ebene_1\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" x=\"0px\" y=\"0px\"\r\n\twidth=\"18px\" height=\"40px\" viewBox=\"0 0 18 40\" enable-background=\"new 0 0 18 40\" xml:space=\"preserve\">\r\n<g id=\"Ebene_2\">\r\n\t<g>\r\n\t\t<polygon points=\"0.3,39 15.5,20 0.3,1 1.7,0 17.7,20 1.7,40 \t\t\"\/>\r\n\t<\/g>\r\n<\/g>\r\n<\/svg>\r\n"}};
+/* ]]> */
+</script>
+<script   type="text/javascript" src="https://octoberwip.com/wp-content/themes/semplice6/assets/js/frontend.min.js?ver=6.2.3" id="semplice-frontend-js-js"></script>
+
+				<script type="text/javascript" id="175-motion-js">
+					(function ($) { "use strict";$(window).scroll();})(jQuery);(function ($) { "use strict";var playRepeat = [];
+						s4.animate.gsap["content_ce407cf38"] = gsap.timeline({
+							scrollTrigger: "#content-holder #content_ce407cf38 .is-content",
+							repeat: -1,
+							
+						});
+					
+								// gsap set transform
+								gsap.set("#content-holder #content_ce407cf38 .is-content", JSON.parse('{"translateY":0,"translateX":0,"rotate":"0deg","rotateY":"0deg","rotateX":"0deg","skewX":"0deg","skewY":"0deg","scaleX":"1","scaleY":"1"}'));
+							
+						// parse props
+						var props = JSON.parse('{"duration":18,"ease":"none","delay":0,"rotation":"720deg"}');
+						// add to timeline
+						s4.animate.gsap["content_ce407cf38"].to("#content-holder #content_ce407cf38 .is-content", props);
+						// pause timeline
+						s4.animate.gsap["content_ce407cf38"].pause();
+					var playRepeat = [];
+						s4.animate.gsap["content_2f7d6aac9"] = gsap.timeline({
+							scrollTrigger: "#content-holder #content_2f7d6aac9 .is-content",
+							repeat: -1,
+							
+						});
+					
+								// gsap set transform
+								gsap.set("#content-holder #content_2f7d6aac9 .is-content", JSON.parse('{"translateY":0,"translateX":0,"rotate":"0deg","rotateY":"0deg","rotateX":"0deg","skewX":"0deg","skewY":"0deg","scaleX":"1","scaleY":"1"}'));
+							
+						// parse props
+						var props = JSON.parse('{"duration":18,"ease":"none","delay":0,"rotation":"720deg"}');
+						// add to timeline
+						s4.animate.gsap["content_2f7d6aac9"].to("#content-holder #content_2f7d6aac9 .is-content", props);
+						// pause timeline
+						s4.animate.gsap["content_2f7d6aac9"].pause();
+					$(window).scroll();})(jQuery);
+				</script>
+			<script>window.lazyLoadOptions=[{elements_selector:"img[data-lazy-src],.rocket-lazyload,iframe[data-lazy-src]",data_src:"lazy-src",data_srcset:"lazy-srcset",data_sizes:"lazy-sizes",class_loading:"lazyloading",class_loaded:"lazyloaded",threshold:300,callback_loaded:function(element){if(element.tagName==="IFRAME"&&element.dataset.rocketLazyload=="fitvidscompatible"){if(element.classList.contains("lazyloaded")){if(typeof window.jQuery!="undefined"){if(jQuery.fn.fitVids){jQuery(element).parent().fitVids()}}}}}},{elements_selector:".rocket-lazyload",data_src:"lazy-src",data_srcset:"lazy-srcset",data_sizes:"lazy-sizes",class_loading:"lazyloading",class_loaded:"lazyloaded",threshold:300,}];window.addEventListener('LazyLoad::Initialized',function(e){var lazyLoadInstance=e.detail.instance;if(window.MutationObserver){var observer=new MutationObserver(function(mutations){var image_count=0;var iframe_count=0;var rocketlazy_count=0;mutations.forEach(function(mutation){for(var i=0;i<mutation.addedNodes.length;i++){if(typeof mutation.addedNodes[i].getElementsByTagName!=='function'){continue}
+if(typeof mutation.addedNodes[i].getElementsByClassName!=='function'){continue}
+images=mutation.addedNodes[i].getElementsByTagName('img');is_image=mutation.addedNodes[i].tagName=="IMG";iframes=mutation.addedNodes[i].getElementsByTagName('iframe');is_iframe=mutation.addedNodes[i].tagName=="IFRAME";rocket_lazy=mutation.addedNodes[i].getElementsByClassName('rocket-lazyload');image_count+=images.length;iframe_count+=iframes.length;rocketlazy_count+=rocket_lazy.length;if(is_image){image_count+=1}
+if(is_iframe){iframe_count+=1}}});if(image_count>0||iframe_count>0||rocketlazy_count>0){lazyLoadInstance.update()}});var b=document.getElementsByTagName("body")[0];var config={childList:!0,subtree:!0};observer.observe(b,config)}},!1)</script><script data-no-minify="1" async src="https://octoberwip.com/wp-content/plugins/wp-rocket/assets/js/lazyload/17.5/lazyload.min.js"></script>	</body>
+</html>

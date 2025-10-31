@@ -9,6 +9,7 @@ const certPath = path.join(os.homedir(), '.office-addin-dev-certs');
 export default defineConfig({
   plugins: [react()],
   root: 'src',
+  publicDir: '../public',
   build: {
     outDir: '../dist',
     emptyOutDir: true,

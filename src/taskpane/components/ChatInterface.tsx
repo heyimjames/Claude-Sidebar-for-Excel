@@ -172,18 +172,21 @@ export default function ChatInterface({ apiKey: initialApiKey }: ChatInterfacePr
   };
 
   return (
-    <div className="chat-interface" role="main" aria-label="Chat with Claude">
+    <div className="chat-interface" role="main" aria-label="Chat with OCTOBER">
       <div className="chat-header" role="banner">
         <div className="header-icon">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M12 2L2 7L12 12L22 7L12 2Z" stroke="currentColor" strokeWidth="2" strokeLinejoin="round" />
-            <path d="M2 17L12 22L22 17" stroke="currentColor" strokeWidth="2" strokeLinejoin="round" />
-            <path d="M2 12L12 17L22 12" stroke="currentColor" strokeWidth="2" strokeLinejoin="round" />
+          <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M14 2L14 26M2 14L26 14M6.5 6.5L21.5 21.5M21.5 6.5L6.5 21.5"
+              stroke="currentColor"
+              strokeWidth="2.5"
+              strokeLinecap="round"
+            />
           </svg>
         </div>
         <div className="header-content">
-          <h1 className="header-title">Claude</h1>
-          <p className="header-subtitle">Excel AI Assistant</p>
+          <h1 className="header-title">OCTOBER</h1>
+          <p className="header-subtitle">AI Assistant for Excel</p>
         </div>
         <div className="header-actions">
           <ToolsMenu messages={messages} />
@@ -218,14 +221,14 @@ export default function ChatInterface({ apiKey: initialApiKey }: ChatInterfacePr
       >
         {messages.length === 0 ? (
           <div className="welcome-message">
-            <h2>Welcome to Claude for Excel</h2>
-            <p>I can help you understand and work with your Excel data. Try asking me to:</p>
-            <ul>
-              <li>Read and summarize your data</li>
-              <li>Create charts and tables</li>
-              <li>Apply formulas and formatting</li>
-              <li>Analyze trends and patterns</li>
-            </ul>
+            <div className="welcome-icon">
+              <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="3" y="3" width="18" height="18" rx="2" stroke="currentColor" strokeWidth="1.5" fill="none" />
+                <path d="M3 8h18M8 3v18" stroke="currentColor" strokeWidth="1.5" />
+              </svg>
+            </div>
+            <h2>Ready to help with your spreadsheet</h2>
+            <p>Select cells in Excel and ask me anything—analyze data, create formulas, or explain patterns.</p>
           </div>
         ) : (
           <>

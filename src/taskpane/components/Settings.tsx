@@ -75,7 +75,7 @@ export default function Settings({ open, onClose, apiKey, onApiKeyChange }: Sett
           {activeTab === 'shortcuts' ? (
             <div className="shortcuts-section">
               <p className="shortcuts-description">
-                Use these keyboard shortcuts to work faster with Claude for Excel
+                Use these keyboard shortcuts to work faster with OCTOBER
               </p>
               <div className="shortcuts-list">
                 {shortcuts.map((shortcut, index) => (
@@ -136,12 +136,12 @@ export default function Settings({ open, onClose, apiKey, onApiKeyChange }: Sett
           ) : (
             <div className="about-section">
               <div className="about-header">
-                <h3 className="about-title">Claude for Excel</h3>
+                <h3 className="about-title">OCTOBER Sidebar for Excel</h3>
                 <p className="about-version">Version 1.0.0</p>
               </div>
               <div className="about-content">
                 <p className="about-description">
-                  An AI-powered Excel assistant that brings the power of Claude AI directly into your spreadsheets.
+                  An unofficial AI assistant for Excel, powered by Anthropic's Claude AI. OCTOBER brings intelligent spreadsheet analysis and automation to your workflow.
                 </p>
                 <div className="about-credits">
                   <h4 className="credits-title">Built by</h4>
