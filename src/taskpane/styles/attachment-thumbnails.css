@@ -1,9 +1,13 @@
+/* ========================================
+   ATTACHMENT THUMBNAILS - Claude.ai Style
+   ======================================== */
+
 .attachment-thumbnails {
   display: flex;
   flex-direction: row;
-  gap: 8px;
-  margin-top: 10px;
-  padding: 2px;
+  gap: var(--space-2);
+  margin-top: var(--space-3);
+  padding: var(--space-1);
   min-height: 56px;
 }
 
@@ -11,31 +15,37 @@
   position: relative;
   width: 48px;
   height: 48px;
-  border-radius: 6px;
+  border-radius: var(--radius-md);
   overflow: visible;
   cursor: pointer;
-  transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+  transition: all 0.3s var(--ease-smooth);
   transform-origin: center center;
 }
 
-/* Stacking effect when multiple files */
+/* ========================================
+   STACKING EFFECT
+   ======================================== */
+
+/* Stacking when multiple files */
 .attachment-thumbnails:has(.attachment-thumbnail:nth-child(2)) .attachment-thumbnail {
   position: absolute;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  box-shadow: var(--shadow-sm);
 }
 
 /* Calculate rotation and position for stacked thumbnails */
 .attachment-thumbnail {
-  /* Default rotation based on index */
   transform: rotate(calc((var(--stack-index) - (var(--stack-total) - 1) / 2) * 6deg))
     translateX(calc(var(--stack-index) * 10px));
 }
 
-/* Hover effects */
+/* ========================================
+   HOVER EFFECTS
+   ======================================== */
+
 .attachment-thumbnail:hover {
   transform: rotate(0deg) translateX(calc(var(--stack-index) * 10px)) translateY(-6px) scale(1.15);
   z-index: 100;
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25) !important;
+  box-shadow: var(--shadow-md) !important;
 }
 
 .attachment-thumbnail:hover .thumbnail-filename {
@@ -43,100 +53,122 @@
   transform: translateY(0);
 }
 
-/* Thumbnail content container */
+/* ========================================
+   THUMBNAIL CONTENT
+   ======================================== */
+
 .thumbnail-content {
   width: 100%;
   height: 100%;
-  border-radius: 6px;
+  border-radius: var(--radius-md);
   overflow: hidden;
-  background: #ffffff;
-  border: 1.5px solid #e1e1e1;
+  background: var(--bg-primary);
+  border: 1px solid var(--border-primary);
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: border-color 0.2s;
+  transition: all var(--duration-fast) var(--ease-default);
 }
 
 .attachment-thumbnail:hover .thumbnail-content {
-  border-color: #0078d4;
+  border-color: var(--primary-orange);
 }
 
-/* Image thumbnails */
+/* ========================================
+   IMAGE THUMBNAILS
+   ======================================== */
+
 .thumbnail-image img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-/* Document thumbnails */
+/* ========================================
+   DOCUMENT THUMBNAILS
+   ======================================== */
+
 .thumbnail-document {
   flex-direction: column;
-  gap: 3px;
-  background: linear-gradient(135deg, #f5f5f5 0%, #ffffff 100%);
+  gap: var(--space-1);
+  background: linear-gradient(135deg, var(--bg-tertiary) 0%, var(--bg-secondary) 100%);
 }
 
 .thumbnail-icon {
   width: 20px;
   height: 20px;
-  color: #d83b01;
+  color: #D83B01;
 }
 
 .thumbnail-label {
   font-size: 8px;
-  font-weight: 600;
-  color: #605e5c;
+  font-weight: var(--weight-semibold);
+  color: var(--text-secondary);
   text-transform: uppercase;
   letter-spacing: 0.3px;
 }
 
-/* More files indicator */
+/* ========================================
+   MORE FILES INDICATOR
+   ======================================== */
+
 .thumbnail-more-indicator {
-  background: linear-gradient(135deg, #0078d4 0%, #005a9e 100%);
-  border-color: #0078d4;
+  background: linear-gradient(135deg, var(--primary-orange) 0%, var(--primary-hover) 100%);
+  border-color: var(--primary-orange);
 }
 
 .more-count {
   font-size: 14px;
-  font-weight: 700;
-  color: white;
+  font-weight: var(--weight-bold);
+  color: var(--text-inverse);
   user-select: none;
 }
 
-/* Filename tooltip */
+/* ========================================
+   FILENAME TOOLTIP
+   ======================================== */
+
 .thumbnail-filename {
   position: absolute;
   bottom: -20px;
   left: 50%;
   transform: translateX(-50%) translateY(3px);
-  background: rgba(0, 0, 0, 0.85);
-  color: white;
+  background: rgba(31, 31, 31, 0.9);
+  color: var(--text-inverse);
   padding: 3px 6px;
-  border-radius: 3px;
-  font-size: 10px;
+  border-radius: var(--radius-sm);
+  font-size: var(--text-xs);
   white-space: nowrap;
   pointer-events: none;
   opacity: 0;
-  transition: all 0.2s ease;
+  transition: all var(--duration-base) var(--ease-default);
   z-index: 101;
   max-width: 120px;
   overflow: hidden;
   text-overflow: ellipsis;
+  box-shadow: var(--shadow-md);
 }
 
-/* Single file - no rotation */
+/* ========================================
+   SINGLE FILE STYLES
+   ======================================== */
+
 .attachment-thumbnails:has(.attachment-thumbnail:only-child) .attachment-thumbnail {
   position: relative;
   transform: none;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: var(--shadow-xs);
 }
 
 .attachment-thumbnails:has(.attachment-thumbnail:only-child) .attachment-thumbnail:hover {
   transform: translateY(-3px) scale(1.1);
 }
 
-/* Animation on mount */
+/* ========================================
+   ANIMATION ON MOUNT
+   ======================================== */
+
 .attachment-thumbnail {
-  animation: thumbnailSlideIn 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation: thumbnailSlideIn 0.4s var(--ease-smooth);
   animation-fill-mode: both;
   animation-delay: calc(var(--stack-index) * 0.05s);
 }
@@ -156,31 +188,39 @@
   }
 }
 
-/* Dark mode support */
+/* ========================================
+   DARK MODE SUPPORT
+   ======================================== */
+
 @media (prefers-color-scheme: dark) {
   .thumbnail-content {
-    background: #2b2b2b;
-    border-color: #3b3b3b;
+    background: var(--bg-secondary);
+    border-color: var(--border-primary);
   }
 
   .attachment-thumbnail:hover .thumbnail-content {
-    border-color: #4cc2ff;
+    border-color: var(--primary-orange);
   }
 
   .thumbnail-document {
-    background: linear-gradient(135deg, #2b2b2b 0%, #363636 100%);
+    background: linear-gradient(135deg, var(--bg-tertiary) 0%, var(--bg-secondary) 100%);
   }
 
   .thumbnail-label {
-    color: #c8c6c4;
+    color: var(--text-tertiary);
   }
 
   .thumbnail-icon {
-    color: #ff8c69;
+    color: #FF8C69;
   }
 
   .thumbnail-more-indicator {
-    background: linear-gradient(135deg, #4cc2ff 0%, #0078d4 100%);
-    border-color: #4cc2ff;
+    background: linear-gradient(135deg, var(--primary-orange) 0%, var(--primary-hover) 100%);
+    border-color: var(--primary-orange);
+  }
+
+  .thumbnail-filename {
+    background: rgba(255, 255, 255, 0.95);
+    color: var(--gray-900);
   }
 }

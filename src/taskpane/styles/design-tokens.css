@@ -1,0 +1,248 @@
+/* Claude.ai Design System Tokens */
+
+:root {
+  /* ========================================
+     COLORS - PRIMARY
+     ======================================== */
+  --primary-orange: #CC785C;
+  --primary-hover: #B86B4F;
+  --primary-dark: #A35E42;
+
+  /* ========================================
+     COLORS - BACKGROUND
+     ======================================== */
+  --bg-primary: #FFFFFF;
+  --bg-secondary: #F9F9F8;
+  --bg-tertiary: #F4F4F2;
+  --bg-elevated: #FFFFFF;
+  --bg-chat-user: #F4F4F2;
+  --bg-chat-assistant: #FFFFFF;
+  --bg-input: #FFFFFF;
+  --bg-hover: #F9F9F8;
+
+  /* ========================================
+     COLORS - TEXT
+     ======================================== */
+  --text-primary: #1F1F1F;
+  --text-secondary: #666666;
+  --text-tertiary: #8E8E8E;
+  --text-disabled: #BFBFBF;
+  --text-inverse: #FFFFFF;
+  --text-link: #CC785C;
+
+  /* ========================================
+     COLORS - BORDERS
+     ======================================== */
+  --border-primary: #E5E5E3;
+  --border-secondary: #F0F0EE;
+  --border-focus: #CC785C;
+  --border-hover: #D4D4D2;
+
+  /* ========================================
+     COLORS - SEMANTIC
+     ======================================== */
+  --success: #10A37F;
+  --success-bg: #F0FDF9;
+  --error: #D32F2F;
+  --error-bg: #FEF2F2;
+  --warning: #F59E0B;
+  --warning-bg: #FFFBEB;
+  --info: #3B82F6;
+  --info-bg: #EFF6FF;
+
+  /* ========================================
+     COLORS - NEUTRAL GRAYSCALE
+     ======================================== */
+  --gray-50: #FAFAFA;
+  --gray-100: #F4F4F2;
+  --gray-200: #E5E5E3;
+  --gray-300: #D4D4D2;
+  --gray-400: #A8A8A6;
+  --gray-500: #8E8E8E;
+  --gray-600: #666666;
+  --gray-700: #4D4D4D;
+  --gray-800: #333333;
+  --gray-900: #1F1F1F;
+
+  /* ========================================
+     TYPOGRAPHY - FONTS
+     ======================================== */
+  --font-primary: 'Söhne', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+  --font-mono: 'Söhne Mono', 'Monaco', 'Consolas', 'Courier New', monospace;
+
+  /* ========================================
+     TYPOGRAPHY - SIZES
+     ======================================== */
+  --text-display: 48px;
+  --text-h1: 32px;
+  --text-h2: 24px;
+  --text-h3: 20px;
+  --text-h4: 18px;
+  --text-h5: 16px;
+  --text-large: 16px;
+  --text-base: 15px;
+  --text-small: 14px;
+  --text-xs: 13px;
+  --text-tiny: 12px;
+
+  /* ========================================
+     TYPOGRAPHY - WEIGHTS
+     ======================================== */
+  --weight-normal: 400;
+  --weight-medium: 500;
+  --weight-semibold: 600;
+  --weight-bold: 700;
+
+  /* ========================================
+     TYPOGRAPHY - LINE HEIGHTS
+     ======================================== */
+  --leading-tight: 1.2;
+  --leading-snug: 1.4;
+  --leading-normal: 1.6;
+  --leading-relaxed: 1.75;
+
+  /* ========================================
+     TYPOGRAPHY - LETTER SPACING
+     ======================================== */
+  --tracking-tight: -0.02em;
+  --tracking-normal: 0;
+  --tracking-wide: 0.01em;
+
+  /* ========================================
+     SPACING SCALE (Base: 4px)
+     ======================================== */
+  --space-0: 0px;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-7: 28px;
+  --space-8: 32px;
+  --space-10: 40px;
+  --space-12: 48px;
+  --space-16: 64px;
+  --space-20: 80px;
+  --space-24: 96px;
+
+  /* ========================================
+     COMPONENT SPACING
+     ======================================== */
+  --chat-message-padding-x: 20px;
+  --chat-message-padding-y: 16px;
+  --chat-message-gap: 16px;
+  --button-padding-sm: 8px 12px;
+  --button-padding-md: 10px 16px;
+  --button-padding-lg: 12px 24px;
+  --input-padding-x: 16px;
+  --input-padding-y: 12px;
+  --card-padding: 24px;
+  --container-padding: 20px;
+  --section-gap: 32px;
+
+  /* ========================================
+     BORDER RADIUS
+     ======================================== */
+  --radius-none: 0px;
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+  --radius-2xl: 24px;
+  --radius-full: 9999px;
+
+  /* ========================================
+     SHADOWS & ELEVATION
+     ======================================== */
+  --shadow-xs: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-sm: 0 1px 3px 0 rgba(0, 0, 0, 0.08), 0 1px 2px -1px rgba(0, 0, 0, 0.08);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.08), 0 2px 4px -2px rgba(0, 0, 0, 0.08);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.08), 0 4px 6px -4px rgba(0, 0, 0, 0.08);
+  --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.08), 0 8px 10px -6px rgba(0, 0, 0, 0.08);
+  --shadow-focus: 0 0 0 3px rgba(204, 120, 92, 0.12);
+  --shadow-focus-error: 0 0 0 3px rgba(211, 47, 47, 0.12);
+
+  /* ========================================
+     TRANSITIONS
+     ======================================== */
+  --duration-fast: 0.15s;
+  --duration-base: 0.2s;
+  --duration-slow: 0.3s;
+  --duration-slower: 0.4s;
+  --ease-default: ease;
+  --ease-in: cubic-bezier(0.4, 0, 1, 1);
+  --ease-out: cubic-bezier(0, 0, 0.2, 1);
+  --ease-in-out: cubic-bezier(0.4, 0, 0.2, 1);
+  --ease-smooth: cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+
+/* ========================================
+   DARK MODE OVERRIDES
+   ======================================== */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-primary: #1F1F1F;
+    --bg-secondary: #2B2B2B;
+    --bg-tertiary: #363636;
+    --bg-chat-user: #2B2B2B;
+    --bg-chat-assistant: #1F1F1F;
+    --bg-hover: #2B2B2B;
+
+    --text-primary: #FFFFFF;
+    --text-secondary: #C8C6C4;
+    --text-tertiary: #8E8E8E;
+
+    --border-primary: #3B3B3B;
+    --border-secondary: #2B2B2B;
+    --border-hover: #4D4D4D;
+
+    --gray-50: #2B2B2B;
+    --gray-100: #363636;
+    --gray-200: #4D4D4D;
+    --gray-300: #666666;
+  }
+}
+
+/* ========================================
+   BASE STYLES
+   ======================================== */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-primary);
+  font-size: var(--text-base);
+  line-height: var(--leading-normal);
+  color: var(--text-primary);
+  background: var(--bg-primary);
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ========================================
+   UTILITY CLASSES
+   ======================================== */
+.text-primary { color: var(--text-primary); }
+.text-secondary { color: var(--text-secondary); }
+.text-tertiary { color: var(--text-tertiary); }
+
+.bg-primary { background: var(--bg-primary); }
+.bg-secondary { background: var(--bg-secondary); }
+.bg-tertiary { background: var(--bg-tertiary); }
+
+.font-medium { font-weight: var(--weight-medium); }
+.font-semibold { font-weight: var(--weight-semibold); }
+.font-bold { font-weight: var(--weight-bold); }
+
+.rounded-sm { border-radius: var(--radius-sm); }
+.rounded-md { border-radius: var(--radius-md); }
+.rounded-lg { border-radius: var(--radius-lg); }
+.rounded-xl { border-radius: var(--radius-xl); }
+
+.shadow-xs { box-shadow: var(--shadow-xs); }
+.shadow-sm { box-shadow: var(--shadow-sm); }
+.shadow-md { box-shadow: var(--shadow-md); }

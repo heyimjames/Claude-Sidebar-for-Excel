@@ -1,36 +1,42 @@
+/* ========================================
+   EXCEL CONTEXT - Claude.ai Style
+   ======================================== */
+
 /* Collapsed state - minimal chip */
 .excel-context-collapsed {
   display: flex;
   align-items: center;
-  gap: 6px;
-  padding: 6px 10px;
-  background: white;
-  border: 1.5px solid var(--border);
-  border-radius: 20px;
-  margin-bottom: 8px;
+  gap: var(--space-2);
+  padding: 6px 12px;
+  background: var(--bg-primary);
+  border: 1px solid var(--border-primary);
+  border-radius: var(--radius-full);
+  margin: var(--space-2) var(--container-padding) var(--space-3);
   cursor: pointer;
-  transition: all 200ms var(--transition-smooth);
+  transition: all var(--duration-fast) var(--ease-default);
   width: fit-content;
-  max-width: 100%;
+  max-width: calc(100% - calc(var(--container-padding) * 2));
   font-family: inherit;
+  box-shadow: var(--shadow-xs);
 }
 
 .excel-context-collapsed:hover {
-  border-color: var(--accent);
-  background: rgba(217, 119, 87, 0.05);
+  border-color: var(--primary-orange);
+  background: rgba(204, 120, 92, 0.04);
   transform: translateY(-1px);
+  box-shadow: var(--shadow-sm);
 }
 
 .excel-context-collapsed-icon {
   flex-shrink: 0;
   width: 16px;
   height: 16px;
-  color: var(--accent);
+  color: var(--primary-orange);
 }
 
 .excel-context-collapsed-text {
-  font-size: 13px;
-  font-weight: 500;
+  font-size: var(--text-xs);
+  font-weight: var(--weight-medium);
   color: var(--text-primary);
   white-space: nowrap;
   overflow: hidden;
@@ -44,18 +50,22 @@
   color: var(--text-secondary);
 }
 
-/* Expanded state - more compact */
+/* ========================================
+   EXPANDED STATE
+   ======================================== */
+
 .excel-context {
-  background: linear-gradient(135deg, rgba(217, 119, 87, 0.04) 0%, rgba(217, 119, 87, 0.08) 100%);
-  border: 1.5px solid var(--border);
-  border-radius: 8px;
-  padding: 6px 10px;
-  margin-bottom: 8px;
+  background: linear-gradient(135deg, rgba(204, 120, 92, 0.03) 0%, rgba(204, 120, 92, 0.06) 100%);
+  border: 1px solid var(--border-primary);
+  border-radius: var(--radius-lg);
+  padding: var(--space-3) var(--space-4);
+  margin: var(--space-2) var(--container-padding) var(--space-3);
   backdrop-filter: blur(8px);
+  box-shadow: var(--shadow-xs);
 }
 
 .excel-context.loading {
-  background: var(--cream);
+  background: var(--bg-secondary);
   min-height: 80px;
   display: flex;
   align-items: center;
@@ -68,12 +78,12 @@
   background: linear-gradient(
     90deg,
     transparent 0%,
-    rgba(217, 119, 87, 0.1) 50%,
+    rgba(204, 120, 92, 0.08) 50%,
     transparent 100%
   );
   background-size: 200% 100%;
   animation: shimmer 1.5s infinite;
-  border-radius: 8px;
+  border-radius: var(--radius-md);
 }
 
 @keyframes shimmer {
@@ -85,10 +95,14 @@
   }
 }
 
+/* ========================================
+   HEADER SECTION
+   ======================================== */
+
 .excel-context-header {
   display: flex;
   align-items: flex-start;
-  gap: 8px;
+  gap: var(--space-2);
   position: relative;
 }
 
@@ -101,18 +115,19 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: white;
-  border: 1.5px solid var(--border);
-  border-radius: 6px;
+  background: var(--bg-primary);
+  border: 1px solid var(--border-primary);
+  border-radius: var(--radius-md);
   cursor: pointer;
   color: var(--text-secondary);
-  transition: all 200ms var(--transition-smooth);
+  transition: all var(--duration-fast) var(--ease-default);
   padding: 0;
 }
 
 .excel-context-collapse-btn:hover {
-  border-color: var(--accent);
-  color: var(--accent);
+  border-color: var(--primary-orange);
+  color: var(--primary-orange);
+  background: rgba(204, 120, 92, 0.04);
   transform: scale(1.05);
 }
 
@@ -128,11 +143,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: white;
-  border-radius: 6px;
-  border: 1.5px solid var(--border);
-  box-shadow: var(--shadow-sm);
-  color: var(--accent);
+  background: var(--bg-primary);
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border-primary);
+  box-shadow: var(--shadow-xs);
+  color: var(--primary-orange);
 }
 
 .excel-context-icon svg {
@@ -140,23 +155,28 @@
   height: 14px;
 }
 
+/* ========================================
+   DETAILS SECTION
+   ======================================== */
+
 .excel-context-details {
   flex: 1;
   min-width: 0;
+  padding-right: var(--space-8);
 }
 
 .excel-context-title {
   display: flex;
   align-items: center;
-  gap: 6px;
-  margin-bottom: 4px;
+  gap: var(--space-2);
+  margin-bottom: var(--space-1);
   flex-wrap: wrap;
 }
 
 .excel-context-range {
-  font-family: 'Monaco', 'SF Mono', 'Cascadia Code', 'Courier New', monospace;
-  font-size: clamp(0.75rem, 1.3vw, 0.8125rem);
-  font-weight: 600;
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  font-weight: var(--weight-semibold);
   color: var(--text-primary);
   letter-spacing: -0.01em;
 }
@@ -164,10 +184,10 @@
 .excel-context-subtitle {
   display: flex;
   align-items: center;
-  gap: 4px;
-  font-size: clamp(0.6875rem, 1.1vw, 0.75rem);
+  gap: var(--space-1);
+  font-size: var(--text-xs);
   color: var(--text-secondary);
-  font-weight: 400;
+  font-weight: var(--weight-normal);
 }
 
 .sheet-icon {
@@ -176,65 +196,91 @@
   opacity: 0.7;
 }
 
+/* ========================================
+   PREVIEW SECTION
+   ======================================== */
+
 .excel-context-preview {
-  margin-top: 6px;
-  padding-top: 6px;
-  border-top: 1px solid var(--border);
+  margin-top: var(--space-2);
+  padding-top: var(--space-2);
+  border-top: 1px solid var(--border-secondary);
   display: flex;
   flex-direction: column;
-  gap: 3px;
+  gap: var(--space-1);
 }
 
 .excel-context-preview-label {
-  font-size: clamp(0.625rem, 1vw, 0.6875rem);
-  font-weight: 600;
-  color: var(--text-secondary);
+  font-size: 10px;
+  font-weight: var(--weight-semibold);
+  color: var(--text-tertiary);
   text-transform: uppercase;
   letter-spacing: 0.05em;
 }
 
 .excel-context-preview-content {
-  font-family: 'Monaco', 'SF Mono', 'Cascadia Code', 'Courier New', monospace;
-  font-size: clamp(0.6875rem, 1.1vw, 0.75rem);
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
   color: var(--text-primary);
-  padding: 6px 10px;
-  background: white;
-  border-radius: 6px;
-  border: 1px solid var(--border);
+  padding: var(--space-2) var(--space-3);
+  background: var(--bg-primary);
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border-secondary);
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
 
 .excel-context-badge {
-  margin-top: 6px;
+  margin-top: var(--space-2);
   display: inline-flex;
 }
 
-/* Responsive adjustments */
-@media (max-width: 400px) {
+/* ========================================
+   DARK MODE SUPPORT
+   ======================================== */
+
+@media (prefers-color-scheme: dark) {
+  .excel-context-collapsed {
+    background: var(--bg-secondary);
+  }
+
+  .excel-context-collapsed:hover {
+    background: rgba(204, 120, 92, 0.1);
+  }
+
   .excel-context {
-    padding: 12px;
+    background: linear-gradient(135deg, rgba(204, 120, 92, 0.05) 0%, rgba(204, 120, 92, 0.08) 100%);
   }
 
   .excel-context-icon {
-    width: 36px;
-    height: 36px;
+    background: var(--bg-tertiary);
   }
 
-  .excel-context-icon svg {
-    width: 18px;
-    height: 18px;
-  }
-}
-
-/* High contrast mode */
-@media (prefers-contrast: high) {
-  .excel-context {
-    border-width: 2px;
+  .excel-context-collapse-btn {
+    background: var(--bg-tertiary);
   }
 
   .excel-context-preview-content {
-    border-width: 2px;
+    background: var(--bg-tertiary);
+  }
+}
+
+/* ========================================
+   RESPONSIVE ADJUSTMENTS
+   ======================================== */
+
+@media (max-width: 400px) {
+  .excel-context {
+    padding: var(--space-3);
+  }
+
+  .excel-context-icon {
+    width: 32px;
+    height: 32px;
+  }
+
+  .excel-context-icon svg {
+    width: 16px;
+    height: 16px;
   }
 }

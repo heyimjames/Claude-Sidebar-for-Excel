@@ -3,6 +3,7 @@ import { FluentProvider, webLightTheme } from '@fluentui/react-components';
 import ChatInterface from './components/ChatInterface';
 import ApiKeySetup from './components/ApiKeySetup';
 import { ErrorBoundary } from './components/ErrorBoundary';
+import './styles/design-tokens.css';
 
 /* global Office */
 

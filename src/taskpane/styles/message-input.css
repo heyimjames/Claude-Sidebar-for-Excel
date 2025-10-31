@@ -20,7 +20,8 @@
 }
 
 .message-input-wrapper:focus-within {
-  border-color: var(--text-primary);
+  border-color: var(--primary-orange);
+  box-shadow: 0 0 0 3px rgba(204, 120, 92, 0.08);
 }
 
 .message-input-wrapper.dragging {
@@ -117,7 +118,7 @@
   height: 28px;
   min-width: 28px;
   border-radius: 50%;
-  background: var(--text-primary);
+  background: var(--primary-orange);
   border: 2px solid rgba(255, 255, 255, 0.12);
   cursor: pointer;
   display: flex;
@@ -129,7 +130,7 @@
 }
 
 .send-button:hover:not(:disabled) {
-  background: rgba(19, 19, 20, 0.8);
+  background: var(--primary-hover);
   transform: scale(1.05);
 }
 
